@@ -722,9 +722,11 @@ You are a professional career consultant helping a fresh graduate write a concis
 
 CANDIDATE PROFILE:
 - Name: Muhammad Syafiq Norhazwan Bin Nor Ramzi
+- Email: fathazwan14@gmail.com
+- Phone: +60-1157217903
 - Degree: Bachelor of IT (Hons.), Big Data, UiTM Arau — CGPA 3.51
-- Target Roles: Full-Stack Developer, Software Engineer, Data Analyst
-- Primary Skills: Laravel, PHP, JavaScript, MySQL, RESTful APIs, Git, Docker
+- Target Roles: Junior Web Developer, Junior PHP Developer, Junior Laravel Developer, Junior Software Developer, Junior Data Analyst, IT Executive
+- Primary Skills: Laravel, PHP, JavaScript, MySQL, RESTful APIs, Git, Docker, CodeIgniter, React
 - Key Projects:
   * ClockWise (HRMS): Solo full-stack Laravel app deployed on Render — automated payroll & attendance
   * JomOrder (POS): Laravel F&B ordering system with AI-augmented development
@@ -742,7 +744,7 @@ INSTRUCTIONS:
 Write a professional, warm, and confident cover letter (max 300 words). Structure:
 1. Opening: Hook with genuine interest in {job.company} and the {job.title} role
 2. Body: Highlight 2 most relevant projects/skills that directly match their needs
-3. Closing: Express eagerness to contribute, invite them to reach out
+3. Closing: Express eagerness to contribute, invite them to reach out using the candidate's email (fathazwan14@gmail.com) and phone (+60-1157217903).
 
 Format as plain text with proper paragraphs. Do NOT use placeholders like [Your Name].
 Sign off as: Muhammad Syafiq Norhazwan
@@ -797,8 +799,9 @@ Thank you for your time and consideration.
 
 Warm regards,
 Muhammad Syafiq Norhazwan Bin Nor Ramzi
-syafiqnorhazwan@gmail.com
+fathazwan14@gmail.com
 """
+
 
     async def generate(self, result: MatchResult) -> str:
         """Returns the generated cover letter text."""
