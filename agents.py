@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════╗
-║           JOB SEARCH AUTOMATION AGENT  v2.0                  ║
+║           JOB SEARCH AUTOMATION AGENT  v2.1                  ║
 ║  Scrapes JobStreet, Indeed & LinkedIn for matching roles      ║
 ║  Compares against masterProfile.md tech-stack keywords        ║
 ║  Generates AI-powered cover letters via Google Gemini         ║
@@ -1001,7 +1001,7 @@ async def run_agent():
     """Main async pipeline: scrape → score → cover letter → alert."""
     start = datetime.now()
     log.info("=" * 60)
-    log.info("🤖 Job Agent v2.0 started")
+    log.info("🤖 Job Agent v2.1 started")
     log.info(f"   Titles    : {', '.join(JOB_TITLES)}")
     log.info(f"   Location  : {JOB_LOCATION}")
     log.info(f"   Scrapers  : {', '.join(ENABLED_SCRAPERS)}")
