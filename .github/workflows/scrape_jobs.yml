@@ -10,6 +10,9 @@ on:
 permissions:
   contents: write
 
+env:
+  TZ: Asia/Kuala_Lumpur
+
 jobs:
   run-agent:
     runs-on: ubuntu-latest
