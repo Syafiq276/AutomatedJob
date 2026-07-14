@@ -705,9 +705,10 @@ class CoverLetterGenerator:
     """Generates a personalised cover letter for each matched job."""
 
     GEMINI_URL = (
-        "https://generativelanguage.googleapis.com/v1/models/"
-        "gemini-1.5-flash:generateContent"
+        "https://generativelanguage.googleapis.com/v1beta/models/"
+        "gemini-3.5-flash:generateContent"
     )
+
 
 
     def __init__(self, profile: ProfileParser):
