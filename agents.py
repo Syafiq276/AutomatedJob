@@ -755,7 +755,13 @@ Sign off as: Muhammad Syafiq Norhazwan
         """Calls Google Gemini API to generate the cover letter."""
         payload = {
             "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"maxOutputTokens": 600, "temperature": 0.75},
+            "generationConfig": {
+                "maxOutputTokens": 1000,
+                "temperature": 0.75,
+                "thinkingConfig": {
+                    "thinkingLevel": "MINIMAL"
+                }
+            },
         }
         try:
             async with httpx.AsyncClient(timeout=30) as client:
