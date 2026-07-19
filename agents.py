@@ -138,7 +138,7 @@ class ProfileParser:
         "Junior Laravel Developer", "Junior Data Analyst", "Junior Developer",
         "Junior Software Engineer", "Graduate Developer", "Associate Developer",
         "IT Executive", "IT Graduate", "System Developer", "Application Developer",
-        "Trainee Developer", "Trainee",
+        "Trainee Developer", "Trainee", "Graduate Program", "Protege", "Management Trainee",
         # General role signals
         "Developer", "Programmer", "Engineer",
         # Seniority signals in JD text

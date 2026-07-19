@@ -51,7 +51,7 @@ jobs:
           PROFILE_PATH: masterProfile.md
           JOB_LOCATION: Malaysia
           ENABLED_SCRAPERS: jobstreet,indeed,linkedin
-          JOB_TITLES: Junior Software Developer,Junior Web Developer,Junior PHP Developer,Junior Data Analyst,IT Executive,Graduate Developer,Junior Developer
+          JOB_TITLES: Junior Software Developer,Junior Web Developer,Junior PHP Developer,Junior Data Analyst,IT Executive,Graduate Developer,Junior Developer,Graduate Program,Protege,Management Trainee
         run: |
           python agents.py --once
 
