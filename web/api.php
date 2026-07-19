@@ -13,6 +13,8 @@ $DB_FILE = __DIR__ . "/jobs.db";
 $GITHUB_PAT      = "YOUR_GITHUB_PAT_HERE"; // Paste your GitHub Personal Access Token here
 $GITHUB_REPO     = "Syafiq276/AutomatedJob"; // Your GitHub username/repo
 $GITHUB_WORKFLOW = "scrape_jobs.yml";       // Scraper workflow filename
+$GEMINI_API_KEY  = "YOUR_GEMINI_API_KEY_HERE"; // Paste your Gemini API key here
+
 
 /**
  * Generic helper to query the GitHub REST API using curl
@@ -41,6 +43,69 @@ function make_github_request($url, $pat, $method = 'GET', $post_fields = null) {
         "code" => $http_code,
         "body" => json_decode($response, true) ?: $response
     ];
+}
+
+/**
+ * Calls Gemini API to write a tailored cover letter based on the candidate profile and JD
+ */
+function generate_cover_letter_via_gemini($title, $company, $location, $description, $api_key) {
+    $prompt = "You are a professional career consultant helping a fresh graduate write a concise, compelling cover letter.
+
+CANDIDATE PROFILE:
+- Name: Muhammad Syafiq Norhazwan Bin Nor Ramzi
+- Email: fathazwan14@gmail.com
+- Phone: +60-1157217903
+- Degree: Bachelor of IT (Hons.), Big Data, UiTM Arau — CGPA 3.51
+- Target Roles: Junior Web Developer, Junior PHP Developer, Junior Laravel Developer, Junior Software Developer, Junior Data Analyst, IT Executive
+- Primary Skills: Laravel, PHP, JavaScript, MySQL, RESTful APIs, Git, Docker, CodeIgniter, React
+- Key Projects:
+  * ClockWise (HRMS): Solo full-stack Laravel app deployed on Render — automated payroll & attendance
+  * JomOrder (POS): Laravel F&B ordering system with AI-augmented development
+  * Internship at Goolee Sdn Bhd: Built Trainer Development Management System (WordPress + PHP)
+- Notice Period: Immediate
+
+JOB DETAILS:
+- Role: " . $title . "
+- Company: " . $company . "
+- Location: " . $location . "
+- Job Description:
+" . $description . "
+
+INSTRUCTIONS:
+1. Write a formal, tailored cover letter (maximum 250-300 words).
+2. Highlight relevant skills (Laravel, PHP, SQL, Javascript, POS, HRMS) that match the job description.
+3. Keep the tone professional, enthusiastic, and confident.
+4. Output ONLY the cover letter in clean markdown format (do not include any conversational preamble or markdown code blocks like ```markdown).";
+
+    $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" . $api_key;
+    $post_data = [
+        "contents" => [
+            [
+                "parts" => [
+                    ["text" => $prompt]
+                ]
+            ]
+        ]
+    ];
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
+    
+    $response = curl_exec($ch);
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($http_code === 200) {
+        $res_json = json_decode($response, true);
+        if (isset($res_json['candidates'][0]['content']['parts'][0]['text'])) {
+            return trim($res_json['candidates'][0]['content']['parts'][0]['text']);
+        }
+    }
+    return false;
 }
 
 header('Content-Type: application/json');
@@ -205,6 +270,69 @@ if (isset($input['action']) && $input['action'] === 'get_scraper_status') {
         echo json_encode(["error" => "Failed to fetch status from GitHub: " . $err]);
     }
     exit;
+}
+
+// ── ACTION 3: Generate Cover Letter via Gemini ───────────────────
+if (isset($input['action']) && $input['action'] === 'generate_cover_letter') {
+    if (empty($input['id'])) {
+        http_response_code(400);
+        echo json_encode(["error" => "Missing job ID"]);
+        exit;
+    }
+    if (empty($GEMINI_API_KEY) || $GEMINI_API_KEY === "YOUR_GEMINI_API_KEY_HERE") {
+        http_response_code(400);
+        echo json_encode(["error" => "Gemini API key is not configured in web/api.php."]);
+        exit;
+    }
+
+    try {
+        // Fetch job details
+        $stmt = $db->prepare("SELECT * FROM jobs WHERE id = :id");
+        $stmt->execute([':id' => intval($input['id'])]);
+        $job = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if (!$job) {
+            http_response_code(404);
+            echo json_encode(["error" => "Job not found"]);
+            exit;
+        }
+
+        // Call Gemini API to write the cover letter
+        $letter = generate_cover_letter_via_gemini(
+            $job['title'],
+            $job['company'],
+            $job['location'],
+            $job['description'],
+            $GEMINI_API_KEY
+        );
+
+        if (!$letter) {
+            http_response_code(502);
+            echo json_encode(["error" => "Failed to generate cover letter from Gemini API."]);
+            exit;
+        }
+
+        // Save cover letter to database
+        $update_stmt = $db->prepare("UPDATE jobs SET cover_letter = :cover_letter WHERE id = :id");
+        $update_stmt->execute([
+            ':cover_letter' => $letter,
+            ':id' => $job['id']
+        ]);
+
+        // Fetch updated job details to return
+        $job['cover_letter'] = $letter;
+
+        echo json_encode([
+            "status" => "success",
+            "job" => $job
+        ]);
+        exit;
+
+    } catch (PDOException $e) {
+        http_response_code(500);
+        echo json_encode(["error" => "Database Error: " . $e->getMessage()]);
+        exit;
+    }
 }
 
 // In case payload did not match routers

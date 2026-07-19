@@ -183,6 +183,10 @@ $avg_score      = $db->query("SELECT AVG(score) FROM jobs")->fetchColumn() ?: 0.
                             <button class="btn btn-outline-info btn-custom" onclick="viewCoverLetter(<?php echo htmlspecialchars(json_encode($job)); ?>)">
                                 📝 Cover Letter
                             </button>
+                        <?php else: ?>
+                            <button id="btn-gen-letter-<?php echo $job['id']; ?>" class="btn btn-outline-warning btn-custom" onclick="generateCoverLetter(<?php echo $job['id']; ?>)">
+                                ⚡ Generate Cover letter
+                            </button>
                         <?php endif; ?>
                         
                         <?php if ($job['url']): ?>

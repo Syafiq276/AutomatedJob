@@ -244,3 +244,42 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(err => console.error("Initial scraper status check failed:", err));
 });
+
+/**
+ * Triggers cover letter generation for a specific job ID.
+ */
+function generateCoverLetter(jobId) {
+    const btn = document.getElementById(`btn-gen-letter-${jobId}`);
+    const originalText = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '⚡ Generating...';
+
+    fetch('api.php', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ action: 'generate_cover_letter', id: jobId })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.status === 'success') {
+            // Replace the Generate button with the View button
+            btn.outerHTML = `
+                <button class="btn btn-outline-info btn-custom" onclick="viewCoverLetter(${JSON.stringify(data.job).replace(/"/g, '&quot;')})">
+                    📝 Cover Letter
+                </button>
+            `;
+            // Open the visualizer immediately
+            viewCoverLetter(data.job);
+        } else {
+            alert("Error: " + (data.error || "Failed to generate cover letter"));
+            btn.disabled = false;
+            btn.innerHTML = originalText;
+        }
+    })
+    .catch(err => {
+        console.error("Error generating cover letter:", err);
+        alert("Failed to communicate with the API.");
+        btn.disabled = false;
+        btn.innerHTML = originalText;
+    });
+}
