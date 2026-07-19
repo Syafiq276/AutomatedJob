@@ -9,6 +9,40 @@
 $API_KEY = "my_secure_handshake_key_12345"; // Match this with your .env
 $DB_FILE = __DIR__ . "/jobs.db";
 
+// GitHub actions workflow trigger configurations
+$GITHUB_PAT      = "YOUR_GITHUB_PAT_HERE"; // Paste your GitHub Personal Access Token here
+$GITHUB_REPO     = "Syafiq276/AutomatedJob"; // Your GitHub username/repo
+$GITHUB_WORKFLOW = "scrape_jobs.yml";       // Scraper workflow filename
+
+/**
+ * Generic helper to query the GitHub REST API using curl
+ */
+function make_github_request($url, $pat, $method = 'GET', $post_fields = null) {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        "Authorization: Bearer " . $pat,
+        "Accept: application/vnd.github+json",
+        "User-Agent: JobAgent-Dashboard",
+        "X-GitHub-Api-Version: 2022-11-28",
+        "Content-Type: application/json"
+    ]);
+    if ($post_fields !== null) {
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_fields));
+    }
+    
+    $response = curl_exec($ch);
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    
+    return [
+        "code" => $http_code,
+        "body" => json_decode($response, true) ?: $response
+    ];
+}
+
 header('Content-Type: application/json');
 
 // Parse incoming request payload
@@ -123,6 +157,54 @@ if (isset($input['action']) && $input['action'] === 'update_status') {
         echo json_encode(["error" => "Database Status Update Error: " . $e->getMessage()]);
         exit;
     }
+}
+
+// ── ACTION 1: Trigger Scraper (Workflow Dispatch) ────────────────
+if (isset($input['action']) && $input['action'] === 'trigger_scraper') {
+    if (empty($GITHUB_PAT) || $GITHUB_PAT === "YOUR_GITHUB_PAT_HERE") {
+        http_response_code(400);
+        echo json_encode(["error" => "GitHub PAT token is not configured. Please paste your GitHub PAT in web/api.php."]);
+        exit;
+    }
+
+    $url = "https://api.github.com/repos/{$GITHUB_REPO}/actions/workflows/{$GITHUB_WORKFLOW}/dispatches";
+    $res = make_github_request($url, $GITHUB_PAT, 'POST', ["ref" => "main"]);
+
+    if ($res['code'] === 204) {
+        echo json_encode(["status" => "success", "message" => "Scraper run requested successfully!"]);
+    } else {
+        http_response_code(500);
+        $err = is_array($res['body']) ? ($res['body']['message'] ?? json_encode($res['body'])) : $res['body'];
+        echo json_encode(["error" => "GitHub API Error ({$res['code']}): " . $err]);
+    }
+    exit;
+}
+
+// ── ACTION 2: Get Scraper Status (Workflow Runs) ─────────────────
+if (isset($input['action']) && $input['action'] === 'get_scraper_status') {
+    if (empty($GITHUB_PAT) || $GITHUB_PAT === "YOUR_GITHUB_PAT_HERE") {
+        http_response_code(400);
+        echo json_encode(["error" => "GitHub PAT token is not configured. Please paste your GitHub PAT in web/api.php."]);
+        exit;
+    }
+
+    $url = "https://api.github.com/repos/{$GITHUB_REPO}/actions/runs?per_page=1";
+    $res = make_github_request($url, $GITHUB_PAT, 'GET');
+
+    if ($res['code'] === 200 && isset($res['body']['workflow_runs'][0])) {
+        $run = $res['body']['workflow_runs'][0];
+        echo json_encode([
+            "status" => "success",
+            "run_status" => $run['status'], // e.g. queued, in_progress, completed
+            "conclusion" => $run['conclusion'], // e.g. success, failure, cancelled
+            "updated_at" => $run['updated_at']
+        ]);
+    } else {
+        http_response_code(500);
+        $err = is_array($res['body']) ? ($res['body']['message'] ?? json_encode($res['body'])) : $res['body'];
+        echo json_encode(["error" => "Failed to fetch status from GitHub: " . $err]);
+    }
+    exit;
 }
 
 // In case payload did not match routers

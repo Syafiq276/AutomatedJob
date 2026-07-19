@@ -73,9 +73,23 @@ $avg_score      = $db->query("SELECT AVG(score) FROM jobs")->fetchColumn() ?: 0.
             <p class="text-secondary small mb-0">Syafiq's Background Job Scraper &amp; Cover Letter Manager</p>
         </div>
         <div class="d-flex align-items-center gap-3">
-            <span class="badge bg-success py-2 px-3 rounded-pill">Status: Monitoring</span>
+            <span id="scraper-status-badge" class="badge bg-success py-2 px-3 rounded-pill">Status: Monitoring</span>
+            <button id="btn-trigger-scraper" class="btn btn-primary rounded-pill px-3 py-2 btn-custom d-flex align-items-center gap-2" onclick="triggerScraper()">
+                🔄 Run Scraper Now
+            </button>
         </div>
     </header>
+
+    <!-- Scraper Live Progress Bar -->
+    <div id="scraper-progress-container" class="p-3 glass-card d-none mb-5">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="small fw-bold text-light" id="progress-status">Initializing scraper...</span>
+            <span class="small text-info fw-bold" id="progress-percent">0%</span>
+        </div>
+        <div class="progress" style="height: 8px; background-color: rgba(255,255,255,0.1); border-radius: 4px; overflow: hidden;">
+            <div id="scraper-progress-bar" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 0%"></div>
+        </div>
+    </div>
 
     <!-- Metrics Row -->
     <section class="row g-4 mb-5">
