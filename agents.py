@@ -1068,6 +1068,7 @@ async def run_agent():
             f"  {indicator} [{result.score:5.1f}%] "
             f"{job.title[:38]:<38} @ {job.company[:28]:<28} ({job.source})"
         )
+        letter = ""
         if result.score >= MATCH_THRESHOLD:
             matches.append(result)
 
@@ -1079,11 +1080,11 @@ async def run_agent():
             cl_gen.save(result, letter)
             await notifier.send_cover_letter(result, letter)
 
-            # 3. Push to Web Dashboard
-            if DASHBOARD_URL:
-                await push_to_dashboard(result, letter)
-
             await asyncio.sleep(1)  # be polite to APIs
+
+        # 3. Push to Web Dashboard
+        if DASHBOARD_URL:
+            await push_to_dashboard(result, letter)
 
 
     duration = (datetime.now() - start).total_seconds()

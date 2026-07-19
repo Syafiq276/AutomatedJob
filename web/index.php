@@ -179,9 +179,11 @@ $avg_score      = $db->query("SELECT AVG(score) FROM jobs")->fetchColumn() ?: 0.
 
                     <!-- Row Action triggers -->
                     <div class="d-flex align-items-center gap-2">
-                        <button class="btn btn-outline-info btn-custom" onclick="viewCoverLetter(<?php echo htmlspecialchars(json_encode($job)); ?>)">
-                            📝 Cover Letter
-                        </button>
+                        <?php if (!empty($job['cover_letter'])): ?>
+                            <button class="btn btn-outline-info btn-custom" onclick="viewCoverLetter(<?php echo htmlspecialchars(json_encode($job)); ?>)">
+                                📝 Cover Letter
+                            </button>
+                        <?php endif; ?>
                         
                         <?php if ($job['url']): ?>
                             <a href="<?php echo htmlspecialchars($job['url']); ?>" target="_blank" class="btn btn-outline-light btn-custom">
