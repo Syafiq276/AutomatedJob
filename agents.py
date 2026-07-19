@@ -362,9 +362,8 @@ class JobStreetScraper(JobScraper):
 
     async def scrape(self, job_title: str, location: str) -> list[JobListing]:
         jobs: list[JobListing] = []
-        query = re.sub(r'\s+', '-', job_title.lower())
-        loc   = location.lower()
-        url   = f"https://www.jobstreet.com.my/jobs/{query}-jobs-in-{loc}?createdAt=1d"
+        query = re.sub(r'\s+', '+', job_title)
+        url   = f"https://my.jobstreet.com/jobs?keywords={query}&where={location}&daterange=1"
 
         page = await self._new_page()
         try:
@@ -435,7 +434,7 @@ class JobStreetScraper(JobScraper):
             await card.query_selector("a[href*='jobstreet']")
         )
         href = await self._safe_attr(link_el, "href")
-        full_url = f"https://www.jobstreet.com.my{href}" if href.startswith("/") else href
+        full_url = f"https://my.jobstreet.com{href}" if href.startswith("/") else href
 
         # Fetch full description asynchronously
         desc = await self._fetch_description(page, full_url)
