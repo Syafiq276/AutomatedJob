@@ -30,3 +30,7 @@ Thumbs.db
 # Databases
 *.db
 
+# Local Documentation
+deployment_steps.md
+
+

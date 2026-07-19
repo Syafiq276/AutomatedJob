@@ -11,15 +11,16 @@ $DB_FILE = __DIR__ . "/jobs.db";
 
 // GitHub actions workflow trigger configurations
 $GITHUB_PAT      = "YOUR_GITHUB_PAT_HERE"; // Paste your GitHub Personal Access Token here
-$GITHUB_REPO     = "Syafiq276/AutomatedJob"; // Your GitHub username/repo
+$GITHUB_REPO = "Syafiq276/AutomatedJob"; // Your GitHub username/repo
 $GITHUB_WORKFLOW = "scrape_jobs.yml";       // Scraper workflow filename
-$GEMINI_API_KEY  = "YOUR_GEMINI_API_KEY_HERE"; // Paste your Gemini API key here
+$GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"; // Paste your Gemini API key here
 
 
 /**
  * Generic helper to query the GitHub REST API using curl
  */
-function make_github_request($url, $pat, $method = 'GET', $post_fields = null) {
+function make_github_request($url, $pat, $method = 'GET', $post_fields = null)
+{
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -34,11 +35,11 @@ function make_github_request($url, $pat, $method = 'GET', $post_fields = null) {
     if ($post_fields !== null) {
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_fields));
     }
-    
+
     $response = curl_exec($ch);
     $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
-    
+
     return [
         "code" => $http_code,
         "body" => json_decode($response, true) ?: $response
@@ -48,7 +49,8 @@ function make_github_request($url, $pat, $method = 'GET', $post_fields = null) {
 /**
  * Calls Gemini API to write a tailored cover letter based on the candidate profile and JD
  */
-function generate_cover_letter_via_gemini($title, $company, $location, $description, $api_key) {
+function generate_cover_letter_via_gemini($title, $company, $location, $description, $api_key)
+{
     $prompt = "You are a professional career consultant helping a fresh graduate write a concise, compelling cover letter.
 
 CANDIDATE PROFILE:
@@ -94,7 +96,7 @@ INSTRUCTIONS:
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
     curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
-    
+
     $response = curl_exec($ch);
     $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
@@ -112,7 +114,7 @@ header('Content-Type: application/json');
 
 // Parse incoming request payload
 $method = $_SERVER['REQUEST_METHOD'];
-$input  = json_decode(file_get_contents('php://input'), true);
+$input = json_decode(file_get_contents('php://input'), true);
 
 if ($method !== 'POST') {
     http_response_code(405);
@@ -124,7 +126,7 @@ if ($method !== 'POST') {
 try {
     $db = new PDO("sqlite:" . $DB_FILE);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    
+
     // Auto-initialize DB schema if someone hits the API first
     $db->exec("CREATE TABLE IF NOT EXISTS jobs (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -170,7 +172,7 @@ if (isset($input['api_key'])) {
             ':title' => $input['title'],
             ':company' => $input['company']
         ]);
-        
+
         if ($check->fetch()) {
             echo json_encode(["status" => "ignored", "message" => "Duplicate entry detected"]);
             exit;
