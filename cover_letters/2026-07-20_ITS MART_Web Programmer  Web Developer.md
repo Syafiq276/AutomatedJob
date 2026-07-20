@@ -7,23 +7,15 @@
 
 ---
 
-Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com  
-+60-1157217903  
+Dear Hiring Team at ITS MART,
 
-Hiring Manager  
-ITS MART  
-Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia  
+I am writing to express my strong interest in the Web Programmer / Web Developer position. As an IT graduate from UiTM Arau with a CGPA of 3.51 and hands-on experience in full-stack PHP development, I am eager to contribute to ITS MART’s online business applications and support your entire project development lifecycle.
 
-Dear Hiring Manager,
+I bring practical experience in writing optimized, well-documented code that aligns with your requirements. For my project *ClockWise*, a solo-developed HRMS built with Laravel and MySQL, I successfully automated payroll and attendance systems and deployed the live application on Render. Additionally, during my internship at Goolee Sdn Bhd, I developed a Trainer Development Management System using PHP, which sharpened my ability to work closely with stakeholders, translate requirements into clean code, and deliver user-friendly systems on tight deadlines. 
 
-I am writing to express my strong interest in the Web Programmer / Web Developer position at ITS MART. Having recently graduated with a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51), I am eager to bring my robust technical foundation in PHP, JavaScript, and MySQL to your dynamic development team.
+With a solid foundation in PHP, JavaScript, and SQL, combined with a strong eye for detail, I am highly prepared to collaborate with your project leads, interface with clients, and produce the high-quality administrative documentation your team expects. I am self-motivated, quick to adapt, and available to start immediately.
 
-I am highly prepared to contribute to your entire project development lifecycle. For my project *ClockWise*, a solo full-stack HRMS deployed on Render, I utilized Laravel and MySQL to automate complex payroll and attendance tracking. This experience honed my ability to write optimized, well-documented code and design user-friendly administrative interfaces, directly matching your job requirements. Additionally, during my internship at Goolee Sdn Bhd, I developed a Trainer Development Management System using PHP. This role sharpened my analytical skills, eye for detail, and ability to collaborate closely with stakeholders to deliver high-quality solutions under tight deadlines. 
-
-With a strong understanding of modern web standards and a passionate, self-motivated approach to problem-solving, I am confident in my ability to deliver immediate value to ITS MART. I am available to start working immediately.
-
-I welcome the opportunity to discuss how my technical skills and enthusiastic work ethic align with your team's goals. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
+I would welcome the opportunity to discuss how my technical skills and enthusiasm can add value to ITS MART. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview. Thank you for your time and consideration.
 
 Sincerely,
 

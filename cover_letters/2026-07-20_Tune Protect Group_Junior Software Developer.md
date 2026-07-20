@@ -7,27 +7,26 @@
 
 ---
 
-Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com  
-+60-1157217903  
+Muhammad Syafiq Norhazwan Bin Nor Ramzi
+fathazwan14@gmail.com
++60-1157217903
 
-Hiring Manager  
-Tune Protect Group  
-Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia  
+Hiring Manager
+Tune Protect Group
+Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia
 
 Dear Hiring Manager,
 
-I am writing to express my strong interest in the Junior Software Developer position at Tune Protect Group. As an IT graduate from UiTM Arau with a CGPA of 3.51 and hands-on experience in full-stack development, I am eager to contribute to Tune Protect’s digital insurance ecosystem by building robust, secure, and scalable web applications.
+I am writing to express my strong interest in the Junior Software Developer position at Tune Protect Group. As a Bachelor of IT (Big Data) graduate from UiTM Arau with a CGPA of 3.51, I am eager to bring my solid foundation in backend development, RESTful APIs, and modern database management to your dynamic team. 
 
-My technical background aligns closely with your team's needs. I have a strong foundation in backend development, database management, and RESTful APIs. During my internship at Goolee Sdn Bhd, I successfully developed and integrated backend features for a Trainer Development Management System. Additionally, I built "ClockWise," a solo full-stack HRMS application deployed on Render that automates complex payroll and attendance tracking. This project sharpened my skills in structuring efficient SQL databases, writing clean PHP/JavaScript code, and managing version control via Git and GitHub. 
+My technical background aligns closely with Tune Protect’s focus on building robust, scalable APIs and integrating them seamlessly with front-end applications. For my project, ClockWise, I independently developed a full-stack HRMS using PHP and Laravel, where I designed and integrated RESTful APIs, managed complex SQL databases, and successfully deployed the application on Render. Additionally, during my internship at Goolee Sdn Bhd, I managed backend systems and leveraged Git/GitHub for version control, ensuring clean, maintainable code within collaborative environments. While my academic projects focused on PHP, my deep understanding of OOP principles, API architecture, and database optimization equips me to quickly master and contribute to your C# and .NET Core stack.
 
-While my primary stack includes PHP and Laravel, my academic and practical exposure to object-oriented programming enables me to quickly adapt to C# and .NET technologies. I am highly motivated to master your tech stack and apply best practices in API integration to support Tune Protect’s backend systems. 
-
-With an immediate availability status, I am ready to hit the ground running and add value to your team. I welcome the opportunity to discuss how my technical skills and proactive learning attitude can contribute to your upcoming projects. Please feel free to reach out to me at +60-1157217903 or via email at fathazwan14@gmail.com to schedule an interview.
+With an immediate availability status, I am excited to bring my adaptability, problem-solving mindset, and passion for clean code to Tune Protect Group. I would welcome the opportunity to discuss how my skills can support your development team. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903.
 
 Thank you for your time and consideration.
 
-Sincerely,  
+Sincerely,
+
 Muhammad Syafiq Norhazwan
 
 ---
