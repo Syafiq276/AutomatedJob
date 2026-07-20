@@ -79,7 +79,7 @@ INSTRUCTIONS:
 3. Keep the tone professional, enthusiastic, and confident.
 4. Output ONLY the cover letter in clean markdown format (do not include any conversational preamble or markdown code blocks like ```markdown).";
 
-    $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" . $api_key;
+    $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=" . $api_key;
     $post_data = [
         "contents" => [
             [
