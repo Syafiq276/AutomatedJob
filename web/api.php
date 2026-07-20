@@ -98,16 +98,36 @@ INSTRUCTIONS:
     curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
 
     $response = curl_exec($ch);
+    $curl_err = curl_error($ch);
     $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
     if ($http_code === 200) {
         $res_json = json_decode($response, true);
         if (isset($res_json['candidates'][0]['content']['parts'][0]['text'])) {
-            return trim($res_json['candidates'][0]['content']['parts'][0]['text']);
+            return [
+                "success" => true,
+                "text" => trim($res_json['candidates'][0]['content']['parts'][0]['text'])
+            ];
         }
     }
-    return false;
+
+    $error_msg = "HTTP Status " . $http_code;
+    if ($curl_err) {
+        $error_msg .= " (cURL Error: " . $curl_err . ")";
+    } else {
+        $res_json = json_decode($response, true);
+        if (isset($res_json['error']['message'])) {
+            $error_msg .= ": " . $res_json['error']['message'];
+        } else {
+            $error_msg .= ": " . substr(strip_tags($response), 0, 150);
+        }
+    }
+
+    return [
+        "success" => false,
+        "error" => $error_msg
+    ];
 }
 
 header('Content-Type: application/json');
@@ -300,7 +320,7 @@ if (isset($input['action']) && $input['action'] === 'generate_cover_letter') {
         }
 
         // Call Gemini API to write the cover letter
-        $letter = generate_cover_letter_via_gemini(
+        $res = generate_cover_letter_via_gemini(
             $job['title'],
             $job['company'],
             $job['location'],
@@ -308,11 +328,13 @@ if (isset($input['action']) && $input['action'] === 'generate_cover_letter') {
             $GEMINI_API_KEY
         );
 
-        if (!$letter) {
+        if (!$res['success']) {
             http_response_code(502);
-            echo json_encode(["error" => "Failed to generate cover letter from Gemini API."]);
+            echo json_encode(["error" => "Gemini API Error: " . $res['error']]);
             exit;
         }
+
+        $letter = $res['text'];
 
         // Save cover letter to database
         $update_stmt = $db->prepare("UPDATE jobs SET cover_letter = :cover_letter WHERE id = :id");
