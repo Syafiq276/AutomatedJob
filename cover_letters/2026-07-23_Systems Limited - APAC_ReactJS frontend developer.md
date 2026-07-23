@@ -7,25 +7,25 @@
 
 ---
 
-Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com  
-+60-1157217903  
+Muhammad Syafiq Norhazwan Bin Nor Ramzi
+fathazwan14@gmail.com
++60-1157217903
 
-Hiring Manager  
-Systems Limited - APAC  
-Greater Kuala Lumpur  
+Hiring Manager
+Systems Limited - APAC
+Greater Kuala Lumpur
 
 Dear Hiring Manager,
 
-I am writing to express my strong interest in the ReactJS Frontend Developer position at Systems Limited - APAC. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and hands-on experience building responsive, data-driven web applications, I am eager to contribute to your team's high-quality digital solutions.
+I am writing to express my strong interest in the ReactJS Frontend Developer position at Systems Limited - APAC. As an IT graduate from UiTM Arau with a CGPA of 3.51 and a robust foundation in modern JavaScript, I am eager to contribute to your team by building high-performing, user-centric web applications.
 
-Though my academic background is in IT and Big Data, my practical passion lies in frontend engineering and translating complex designs into clean, high-performance code. In my project *JomOrder*, a F&B point-of-sale system, I utilized JavaScript and modern frontend practices to build highly interactive, user-facing interfaces. Additionally, while developing *ClockWise*, a full-stack HRMS, I gained extensive experience integrating RESTful APIs to handle seamless data-driven UI updates, managing version control via Git/GitHub, and optimizing components for cross-device performance. 
+During my studies and hands-on projects, I have developed a deep understanding of translating complex designs into clean, responsive code. In my JomOrder POS project, I leveraged modern frontend methodologies to build dynamic user interfaces, ensuring seamless data flow through RESTful API integrations. Additionally, my experience developing the ClockWise HRMS and my internship at Goolee Sdn Bhd honed my ability to collaborate across the full stack, manage version control via Git/GitHub, and write highly maintainable code. I am particularly excited about the opportunity at Systems Limited to collaborate with your UI/UX and backend teams to optimize components for maximum performance across all devices.
 
-My internship at Goolee Sdn Bhd further refined my ability to collaborate with backend developers and design intuitive user interfaces. I am highly familiar with writing clean, maintainable code and am excited to bring this discipline to Systems Limited's agile development environment, ensuring seamless collaboration from wireframe to deployment.
+With my immediate availability, solid technical toolkit in JavaScript, React, and HTML5, and a strong commitment to agile best practices, I am ready to add value to your development pipeline from day one. 
 
-I am available to start immediately and would love the opportunity to discuss how my technical skills and proactive attitude align with your team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
+I would welcome the opportunity to discuss how my technical skills and enthusiasm align with your team's goals. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
 
-Sincerely,  
+Sincerely,
 
 Muhammad Syafiq Norhazwan
 

@@ -16,16 +16,15 @@ Petaling Jaya, Selangor
 
 Dear Hiring Manager,
 
-As an aspiring Web Developer who thrives on building high-performance applications from the ground up, I am excited to apply for the Web Developer position at Star Media Group Berhad. Holding a Bachelor of IT (Hons.) in Big Data from UiTM with a CGPA of 3.51, I am eager to bring my modern full-stack capabilities to Malaysia’s premier media services team in Petaling Jaya.
+As a passionate IT graduate from UiTM and a dedicated full-stack developer, I am thrilled to apply for the Web Developer position at Star Media Group Berhad. I have long admired Star Media Group's digital innovation, and I am eager to contribute to the high-performance applications that power Malaysia’s premier media services. 
 
-My technical toolkit directly aligns with your diverse open-source stack. Notably, I solo-developed and deployed **ClockWise**, a full-stack HRMS application built with Laravel and MySQL. By designing automated payroll and attendance modules, I gained deep hands-on experience in database management, RESTful APIs, and version control with Git. Additionally, during my internship at Goolee Sdn Bhd, I developed a Trainer Development Management System using PHP, proving my ability to deliver dependable, production-ready solutions under agile dynamics. 
+My technical background aligns perfectly with your open-source stack. I specialize in PHP, Laravel, JavaScript, and MySQL, with hands-on experience building custom digital solutions from the ground up. For my project, ClockWise, I independently developed and deployed a full-stack Laravel HRMS on Render that automated complex payroll and attendance tracking. Additionally, during my internship at Goolee Sdn Bhd, I developed a Trainer Development Management System using PHP, demonstrating my ability to deliver dependable, production-ready code in collaborative environments. 
 
-Having worked with modern frameworks like Laravel, CodeIgniter, and React, I am highly adaptable and ready to contribute to your Scrum-driven environment. I am particularly drawn to Star Media Group's commitment to digital innovation at scale and would love to help optimize the applications that power your services. 
+I thrive in agile settings and am highly adaptable, whether working with Laravel, RESTful APIs, or modern Git workflows. With my immediate availability, I am excited to bring my proactive problem-solving skills to your dynamic team in Petaling Jaya and help scale your digital platforms.
 
-I am available to start immediately and would welcome the opportunity to discuss how my technical skills can support your team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
+I would love the opportunity to discuss how my skills can support Star Media Group’s digital growth. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
 
-Sincerely,
-
+Warm regards,  
 Muhammad Syafiq Norhazwan
 
 ---
