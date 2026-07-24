@@ -13,13 +13,15 @@ fathazwan14@gmail.com
 
 Dear Hiring Team at Exact,
 
-I am writing to express my strong interest in the PHP Software Engineer position at your newly launched Ipoh hub. Having recently graduated with a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51), I am eager to bring my modern PHP expertise to Exact’s growing engineering team and contribute to building highly scalable applications.
+I am writing to express my strong interest in the PHP Software Engineer position at your newly launched Ipoh hub. Having recently graduated with a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51), I am eager to bring my hands-on full-stack development skills to your growing engineering team and contribute to Exact’s scalable applications. 
 
-Although I am a fresh graduate, I have developed a strong foundation in full-stack development that aligns perfectly with your tech stack. I built "ClockWise," a solo-developed HRMS utilizing Laravel, PHP, and MySQL, which automates complex payroll and attendance tracking. Additionally, during my internship at Goolee Sdn Bhd, I took ownership of designing and developing a Trainer Development Management System using PHP. These experiences have taught me how to write clean, testable code, troubleshoot system issues, and manage deployments using Docker—ensuring the reliability and performance that Exact values. 
+My technical background aligns directly with your modern stack. I have extensive experience building robust web applications using PHP, Laravel, and MySQL, while integrating React on the frontend. A prime example of my work is **ClockWise**, a solo-developed Human Resource Management System (HRMS) deployed on Render. For this project, I took full ownership of the development lifecycle, designing RESTful APIs and automating payroll and attendance tracking. Additionally, my hands-on experience extends to containerization with Docker, ensuring consistent environments from development to deployment.
 
-I am highly collaborative, familiar with Agile/SCRUM workflows, and quick to adapt to new frontend technologies like React and TypeScript. I am excited about the opportunity to collaborate with your senior engineers, contribute to architectural discussions, and grow alongside your Ipoh team. 
+During my internship at Goolee Sdn Bhd, I successfully built and delivered a Trainer Development Management System, proving my ability to write clean, reliable code and collaborate effectively. I thrive in structured environments and am eager to adapt my skills to your SCRUM practices, utilizing tools like PHP, TypeScript, and React to resolve bugs and optimize system performance. 
 
-I am available to start immediately and would love the opportunity to discuss how my technical skills and enthusiasm can support Exact's expansion. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
+I am immediately available to join your team in Ipoh. I would love the opportunity to discuss how my technical drive and proactive attitude can support Exact’s growth in Perak. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview.
+
+Thank you for your time and consideration.
 
 Sincerely,  
 Muhammad Syafiq Norhazwan

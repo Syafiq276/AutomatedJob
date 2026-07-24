@@ -7,20 +7,17 @@
 
 ---
 
-Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com | +60-1157217903  
-
 Dear Hiring Team at Trinergy Digital,
 
-I am writing to express my strong interest in the Digital Developer position. Trinergy Digital’s commitment to delivering innovative software solutions that empower businesses deeply resonates with my passion for building impactful technology. As an IT graduate from UiTM Arau with a CGPA of 3.51, I am eager to bring my full-stack capabilities to your collaborative team.
+I am writing to express my strong interest in the Digital Developer position. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a robust foundation in full-stack development, I am eager to contribute to Trinergy Digital’s mission of empowering businesses through innovative, high-quality software solutions.
 
-My technical background aligns directly with your need for a developer who can handle the full software development lifecycle. For my project, ClockWise, I independently designed and deployed a full-stack HRMS application using Laravel, MySQL, and RESTful APIs, which automated complex payroll and attendance tracking. Additionally, my hands-on experience with React, JavaScript, and Git allows me to build scalable, cross-platform optimized solutions while maintaining clean code standards. During my internship at Goolee Sdn Bhd, I successfully customized and maintained enterprise management systems, proving my ability to analyze requirements and deliver high-quality software under tight timelines.
+My technical background aligns directly with your need for a developer who can handle the full software development lifecycle and deliver scalable applications. For my project *ClockWise*, a solo-built HRMS deployed on Render, I utilized Laravel, PHP, and MySQL to automate complex payroll and attendance tracking. This project demonstrated my ability to analyze user needs, design clean databases, and write maintainable back-end code. Additionally, during my internship at Goolee Sdn Bhd, I developed a Trainer Development Management System using PHP, refining my skills in customizing applications and ensuring robust cross-platform performance. 
 
-I am highly motivated to establish good development practices and contribute to Trinergy Digital’s mission of enhancing user experiences. I am available to start immediately and would welcome the opportunity to discuss how my skills can add value to your team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview.
+Equipped with hands-on experience in JavaScript, React, SQL, and Git, I practice clean coding habits and structured version control. I am highly adaptable, value collaborative problem-solving, and am excited about the prospect of maintaining high software standards within your team. 
 
-Thank you for your time and consideration.
+I am available to start immediately and would welcome the opportunity to discuss how my technical skills and proactive mindset can add value to Trinergy Digital. Please feel free to contact me at +60-1157217903 or via email at fathazwan14@gmail.com. Thank you for your time and consideration.
 
-Sincerely,
+Warm regards,
 
 Muhammad Syafiq Norhazwan
 

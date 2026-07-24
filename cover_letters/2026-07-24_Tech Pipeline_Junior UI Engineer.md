@@ -7,17 +7,26 @@
 
 ---
 
-Dear Hiring Team at Tech Pipeline,
+Muhammad Syafiq Norhazwan Bin Nor Ramzi  
+fathazwan14@gmail.com  
++60-1157217903  
+Kuala Lumpur, Malaysia  
 
-I am writing to express my strong interest in the Junior UI Engineer position. Tech Pipeline’s mission to eliminate operational friction and rebuild critical internal interfaces for logistics operators deeply resonates with me. As an IT graduate from UiTM with a strong foundation in modern web technologies, I am eager to help you build intuitive, high-performing tools that streamline complex workflows.
+Hiring Manager  
+Tech Pipeline  
+Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia  
 
-My background in full-stack development has equipped me with the exact front-end and version control skills required for this role. For my project, ClockWise (an HRMS application), I utilized JavaScript and modern CSS to design and build a clean, responsive user interface that simplified complex payroll and attendance tracking for users. Additionally, during my internship at Goolee Sdn Bhd, I worked extensively with PHP and Git in a collaborative environment, ensuring seamless version control and clean code deployment. Having built systems from the ground up, I understand how crucial intuitive UI is to preventing operators from having to cross-reference multiple screens. 
+Dear Hiring Manager,
 
-I am highly proficient in JavaScript, React, and Git, and I am excited about the opportunity to apply these skills to help rebuild your partner's regional logistics interfaces. With my immediate availability, I am ready to dive in and contribute to your team from day one.
+I am writing to express my strong interest in the Junior UI Engineer position at Tech Pipeline. Your mission to eliminate operational friction and rebuild critical internal interfaces for regional logistics operations deeply resonates with me. As an IT graduate from UiTM with a CGPA of 3.51, I am eager to apply my frontend skills to design clean, intuitive, and efficient tools that help your partner's operators manage thousands of daily movements seamlessly.
 
-I would welcome the opportunity to discuss how my technical skills and passion for user-centric design can support Tech Pipeline. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
+During my studies and hands-on projects, I have developed a strong foundation in JavaScript, React, HTML, CSS, and Git. In my solo project, ClockWise—a full-stack HRMS application—I designed and implemented a user-friendly interface to streamline complex workflows like automated payroll and attendance tracking. Additionally, my internship at Goolee Sdn Bhd sharpened my ability to build practical, data-driven systems that directly improve daily operations. Through these experiences, I have learned how to translate complex backend data into clear, actionable UI components, which directly aligns with your goal of reducing the need for operators to cross-reference multiple screens.
 
-Sincerely,
+I am highly motivated to contribute to Tech Pipeline's impactful work and am available to start immediately. I welcome the opportunity to discuss how my technical skills and passion for building efficient user interfaces can support your team. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview.
+
+Thank you for your time and consideration.
+
+Sincerely,  
 
 Muhammad Syafiq Norhazwan
 
