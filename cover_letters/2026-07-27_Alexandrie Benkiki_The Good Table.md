@@ -7,21 +7,22 @@
 
 ---
 
-Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com  
-+60-1157217903  
+Muhammad Syafiq Norhazwan Bin Nor Ramzi
+fathazwan14@gmail.com
++60-1157217903
 
 Dear Alexandrie Benkiki,
 
-As an IT graduate who deeply respects self-driven transitions and hands-on craftsmanship, your journey from HR to specializing in React.js truly inspired me. I am eager to bring my solid foundation in frontend technologies and full-stack development to the Junior Developer position for The Good Table in Kampong Api Api, Selangor. 
+As an IT graduate who deeply respects career transitions driven by passion, your journey from Human Resources to specializing in ReactJS highly resonates with me. I am excited to apply for the developer role at The Good Table. With my solid foundation in JavaScript, React, and RESTful APIs, I am eager to contribute to your vision and collaborate with a driven frontend specialist like yourself.
 
-My academic background in Big Data (CGPA 3.51) and practical experience have equipped me with a strong command of JavaScript, React, HTML, CSS, and RESTful APIs. For my project, JomOrder, I developed a responsive F&B ordering system, leveraging modern frontend practices and AI-augmented development to ensure a seamless user experience. Additionally, during my internship at Goolee Sdn Bhd, I successfully built and deployed a management system using PHP and WordPress, demonstrating my ability to quickly adapt to different architectures and deliver production-ready code.
+During my Bachelor of IT (Big Data) at UiTM Arau, where I graduated with a CGPA of 3.51, I focused heavily on building practical, user-centric web applications. For my project JomOrder, a modern F&B Point-of-Sale system, I designed responsive interfaces using HTML, CSS, and JavaScript, while integrating seamless API endpoints to ensure real-time data flow. Additionally, my hands-on experience building ClockWise, a full-stack HRMS deployed on Render, sharpened my ability to connect dynamic frontends with robust backend architectures. These projects have equipped me with a strong command of version control via Git and a deep understanding of how to structure clean, maintainable code.
 
-I am highly motivated to collaborate with a skilled developer like yourself, learn from your expertise in React.js, and contribute to building intuitive, high-performing web applications for The Good Table. With my technical skills and immediate availability, I am ready to make an impact from day one. 
+I am highly motivated to bring my technical skills and proactive learning attitude to The Good Table. Having completed my studies, I am available to start immediately and am keen to discuss how my skills in React, JavaScript, and API integration can support your upcoming projects. 
 
-I would love the opportunity to discuss how my skills align with your goals. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
+Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview. Thank you for your time and consideration.
 
-Warm regards,  
+Sincerely,
+
 Muhammad Syafiq Norhazwan
 
 ---

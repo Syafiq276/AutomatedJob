@@ -17,15 +17,16 @@ Shah Alam, Selangor, Malaysia
 
 Dear Hiring Manager,
 
-I am writing to express my strong interest in the Data Engineering Executive position at QL Resources Berhad. Having graduated with a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51), I am eager to apply my academic foundation in data architectures and hands-on development skills to build and optimize QL Group’s enterprise Lakehouse platform.
+I am writing to express my strong interest in the Data Engineering Executive position at QL Resources Berhad. As an IT graduate from UiTM Arau (CGPA 3.51) specializing in Big Data, I have long admired QL Resources’ leadership in multinational agro-food and manufacturing. I am eager to leverage my technical foundation to help build and optimize your enterprise data platform on Microsoft Fabric.
 
-During my studies and practical projects, I have developed a robust technical foundation that directly aligns with your requirements. In developing my full-stack HRMS application, ClockWise, I designed and managed complex MySQL databases, writing optimized SQL queries to ensure seamless data flow and reliability. Additionally, my experience utilizing Git for version control and implementing automated logic in Laravel has equipped me with the software engineering discipline required to build and schedule reliable ETL/ELT pipelines. My academic training in Big Data has also provided me with a strong theoretical and practical understanding of Python and data pipeline architectures, making me highly adaptable to Microsoft Fabric’s Medallion Architecture.
+My academic and project background directly aligns with your Medallion Architecture and pipeline development needs. I have a strong command of SQL and Python, which are essential for designing efficient ETL/ELT pipelines. Through my experience building "ClockWise," a solo full-stack HRMS, I managed complex relational databases using MySQL, optimized data queries, and integrated RESTful APIs to automate payroll and attendance tracking. Additionally, my hands-on experience with Git version control and Docker ensures that I can seamlessly integrate into your development workflows and contribute to reliable data ingestion from your diverse ERP and supply chain systems.
 
-With my background in Big Data and proven ability to deliver functional, data-driven applications, I am confident in my ability to quickly learn your ecosystem and help deliver high-quality, analytics-ready data assets for QL Resources. 
+With a solid grounding in big data principles and a passion for turning raw data into analytics-ready assets, I am confident in my ability to support QL Group’s data governance and self-service BI initiatives. I am available to start immediately and would welcome the opportunity to discuss how my skills can add value to your growing data team. 
 
-I am available to start immediately and would love the opportunity to discuss how my skills can support your data engineering team. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
+Please feel free to contact me at +60-1157217903 or via email at fathazwan14@gmail.com to schedule an interview. Thank you for your time and consideration.
 
-Sincerely,  
+Sincerely,
+
 Muhammad Syafiq Norhazwan
 
 ---
