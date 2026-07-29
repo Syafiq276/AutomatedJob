@@ -7,15 +7,19 @@
 
 ---
 
-Dear Hiring Team,
+Muhammad Syafiq Norhazwan Bin Nor Ramzi  
+fathazwan14@gmail.com  
++60-1157217903  
 
-I am writing to express my strong interest in the Packaging Engineering position at Sandisk in Batu Kawan. As an IT graduate from UiTM Arau with a CGPA of 3.51, I have long admired Sandisk’s global leadership in flash memory innovation. I am eager to apply my technical expertise in automation, data management, and system deployment to optimize your advanced manufacturing and packaging processes. 
+Dear Hiring Team at Sandisk,
 
-My background directly aligns with the technical demands of this role. During my internship at Goolee Sdn Bhd, I developed and deployed a management system using PHP, proving my ability to deliver robust digital solutions. Additionally, I built "ClockWise," a solo full-stack HRMS project deployed on Render. This project showcased my strength in automating complex workflows, managing databases with SQL, and maintaining version control via Git. Whether it is writing Python scripts to automate data pipelines or utilizing SQL to analyze packaging yield data, I am equipped to drive efficiency on your production floor. 
+I am writing to express my strong interest in the Packaging Engineering position at your Batu Kawan facility. As an IT graduate from UiTM Arau with a CGPA of 3.51, I have long admired Sandisk’s global leadership in flash and advanced memory technologies. I am eager to apply my technical background in automation, deployment, and data management to optimize your world-class manufacturing and packaging operations.
 
-I am highly adaptable, detail-oriented, and ready to contribute immediately to Sandisk's world-class manufacturing facility in Penang. I welcome the opportunity to discuss how my programming and analytical skills can support your engineering team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. 
+My academic and practical experience directly aligns with the technical rigor required at Sandisk. For my project *ClockWise*, I built and deployed a Laravel-based HRMS on Render that automated complex payroll and attendance processes. This project sharpened my skills in Git, MySQL, and system deployment. Additionally, my hands-on experience with Python and SQL enables me to analyze production data efficiently, design robust automation scripts, and streamline workflows to minimize downtime. 
 
-Thank you for your time and consideration.
+Furthermore, during my internship at Goolee Sdn Bhd, I successfully developed and deployed a Trainer Development Management System. This experience proved my ability to quickly adapt to new technical environments, write clean code, and deliver reliable solutions under tight schedules. I am highly adaptable, detail-oriented, and ready to leverage my programming and data skills to support your engineering team in maintaining Sandisk’s industry-leading standards.
+
+I am available to start immediately and would welcome the opportunity to discuss how my technical skills can contribute to your team's success. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
 
 Sincerely,
 
