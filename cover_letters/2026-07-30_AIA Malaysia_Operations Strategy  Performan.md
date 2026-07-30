@@ -1,27 +1,27 @@
-# Cover Letter — PHP Developer at Experian Asia Pacific
+# Cover Letter — Operations Strategy & Performance Analytics, Analyst at AIA Malaysia
 
-> **Match Score:** 80.0%  
+> **Match Score:** 83%  
 > **Source:** LinkedIn  
 > **Applied:** 30 July 2026  
-> **Job URL:** https://my.linkedin.com/jobs/view/php-developer-at-experian-asia-pacific-4446850659
+> **Job URL:** https://my.linkedin.com/jobs/view/operations-strategy-performance-analytics-analyst-at-aia-malaysia-4438192517
 
 ---
 
 30 July 2026
 
 Hiring Manager
-Experian Asia Pacific
+AIA Malaysia
 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia
 
 Dear Hiring Manager,
 
-I am writing to express my keen interest in the PHP Developer position at Experian Asia Pacific. As a fresh IT graduate from UiTM Arau with a CGPA of 3.51 specialising in Big Data, I bring hands-on production experience in PHP, JavaScript, SQL, MySQL, RESTful API, RESTful — skills that align directly with what your team needs.
+I am writing to express my keen interest in the Operations Strategy & Performance Analytics, Analyst position at AIA Malaysia. As a fresh IT graduate from UiTM Arau with a CGPA of 3.51 specialising in Big Data, I bring hands-on production experience in SQL, Git — skills that align directly with what your team needs.
 
 During my time as a solo developer on ClockWise, an end-to-end Human Resource Management System built on the Laravel ecosystem, I engineered a complete payroll automation platform and successfully deployed it to a live Render cloud environment. This project sharpened my ability to architect clean RESTful APIs, design normalised relational databases in MySQL, and manage a full software development lifecycle independently — from requirements through to deployment.
 
 Additionally, my internship at Goolee Sdn Bhd gave me real-world exposure to translating unstructured organisational data into structured digital systems, building an internal Trainer Development Management System that is actively used by the company today.
 
-I am immediately available and genuinely excited about the opportunity to contribute to Experian Asia Pacific. I would welcome the chance to discuss how my technical background and work ethic can support your team's goals.
+I am immediately available and genuinely excited about the opportunity to contribute to AIA Malaysia. I would welcome the chance to discuss how my technical background and work ethic can support your team's goals.
 
 Thank you for your time and consideration.
 

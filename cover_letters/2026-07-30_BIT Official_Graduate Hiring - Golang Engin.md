@@ -1,27 +1,27 @@
-# Cover Letter — PHP Developer at Experian Asia Pacific
+# Cover Letter — Graduate Hiring - Golang Engineer at BIT Official
 
-> **Match Score:** 80.0%  
+> **Match Score:** 100.0%  
 > **Source:** LinkedIn  
 > **Applied:** 30 July 2026  
-> **Job URL:** https://my.linkedin.com/jobs/view/php-developer-at-experian-asia-pacific-4446850659
+> **Job URL:** https://my.linkedin.com/jobs/view/graduate-hiring-golang-engineer-at-bit-official-4446746944
 
 ---
 
 30 July 2026
 
 Hiring Manager
-Experian Asia Pacific
-Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia
+BIT Official
+Greater Kuala Lumpur
 
 Dear Hiring Manager,
 
-I am writing to express my keen interest in the PHP Developer position at Experian Asia Pacific. As a fresh IT graduate from UiTM Arau with a CGPA of 3.51 specialising in Big Data, I bring hands-on production experience in PHP, JavaScript, SQL, MySQL, RESTful API, RESTful — skills that align directly with what your team needs.
+I am writing to express my keen interest in the Graduate Hiring - Golang Engineer position at BIT Official. As a fresh IT graduate from UiTM Arau with a CGPA of 3.51 specialising in Big Data, I bring hands-on production experience in SQL, MySQL, REST API, Git, Docker, Backend — skills that align directly with what your team needs.
 
 During my time as a solo developer on ClockWise, an end-to-end Human Resource Management System built on the Laravel ecosystem, I engineered a complete payroll automation platform and successfully deployed it to a live Render cloud environment. This project sharpened my ability to architect clean RESTful APIs, design normalised relational databases in MySQL, and manage a full software development lifecycle independently — from requirements through to deployment.
 
 Additionally, my internship at Goolee Sdn Bhd gave me real-world exposure to translating unstructured organisational data into structured digital systems, building an internal Trainer Development Management System that is actively used by the company today.
 
-I am immediately available and genuinely excited about the opportunity to contribute to Experian Asia Pacific. I would welcome the chance to discuss how my technical background and work ethic can support your team's goals.
+I am immediately available and genuinely excited about the opportunity to contribute to BIT Official. I would welcome the chance to discuss how my technical background and work ethic can support your team's goals.
 
 Thank you for your time and consideration.
 
