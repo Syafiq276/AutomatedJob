@@ -13,13 +13,13 @@ fathazwan14@gmail.com
 
 Dear Hiring Team at Lenovo,
 
-Lenovo’s bold vision of delivering "Smarter Technology for All" and its commitment to owning results and wowing customers deeply resonates with my work ethic. As an IT graduate from UiTM Arau with a CGPA of 3.51, I am thrilled to apply for the Front-end Developer position in Petaling Jaya. I am eager to bring my solid foundation in JavaScript, modern MVC frameworks, and full-stack development to your world-class team.
+Lenovo’s bold vision of delivering "Smarter Technology for All" and your commitment to owning what you do truly resonates with my work ethic. As an IT graduate from UiTM with a strong foundation in modern web technologies, I am thrilled to apply for the Front-End Developer position in Petaling Jaya. I am eager to bring my technical skills and proactive mindset to help Lenovo continue to WOW its customers.
 
-During my studies and internship at Goolee Sdn Bhd, I developed a strong command of building responsive, user-centric web applications. A key highlight of my work is "ClockWise," a solo-developed HRMS where I utilized Laravel, JavaScript, and MySQL to build a seamless front-end interface that automates complex payroll and attendance tracking. Additionally, through my "JomOrder" POS project, I leveraged AI-augmented development alongside HTML5, CSS, and TypeScript to optimize UI components, ensuring high-performance rendering and an intuitive user experience. These projects have sharpened my ability to translate complex backend data into clean, interactive, and high-quality front-end interfaces.
+During my studies and internship, I developed a robust command of JavaScript, HTML5, CSS, and MVC frameworks. For my project, ClockWise, I designed and built a responsive full-stack HRMS application using Laravel and JavaScript, deploying it successfully on Render. This project sharpened my ability to translate complex backend logic into intuitive, user-friendly front-end interfaces. Additionally, my hands-on experience with AI-augmented development during the creation of JomOrder, a POS system, demonstrates my ability to adapt quickly to cutting-edge tools to deliver clean, efficient, and high-quality code. 
 
-With my strong technical toolkit spanning JavaScript, PHP, and modern web standards, I am ready to contribute immediately to Lenovo’s innovative digital solutions. I would welcome the opportunity to discuss how my skills can add value to your team. Please feel free to contact me at +60-1157217903 or via email at fathazwan14@gmail.com to schedule an interview. 
+My internship at Goolee Sdn Bhd further refined my ability to collaborate in fast-paced environments and deliver practical, user-centric software solutions. I am highly adaptable, detail-oriented, and ready to contribute immediately to Lenovo’s dynamic development team.
 
-Thank you for your time and consideration.
+I would welcome the opportunity to discuss how my technical skills and enthusiasm for innovation align with Lenovo's goals. Please feel free to contact me at +60-1157217903 or fathazwan14@gmail.com to schedule an interview. Thank you for your time and consideration.
 
 Sincerely,  
 Muhammad Syafiq Norhazwan
