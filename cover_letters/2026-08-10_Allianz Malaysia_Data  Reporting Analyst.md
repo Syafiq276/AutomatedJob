@@ -13,18 +13,17 @@ fathazwan14@gmail.com
 
 Dear Hiring Team at Allianz Malaysia,
 
-I am writing to express my strong interest in the Data & Reporting Analyst position. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a passion for automation, I am eager to help Allianz optimize its operational efficiencies and drive productivity through intelligent data solutions.
+I am writing to express my strong interest in the Data & Reporting Analyst position. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a passion for automation, I am excited about the opportunity to help Allianz Malaysia eliminate operational inefficiencies and drive productivity through smart data and AI initiatives.
 
-My background directly aligns with your need for developing workflow automations and identifying process improvements. During my studies and personal projects, I have specialized in using Python and PHP/Laravel to transform manual workflows into streamlined, automated systems. Notably, I single-handedly built and deployed *ClockWise*, a full-stack HRMS that automated complex payroll and attendance tracking. Additionally, for *JomOrder*, a POS system, I leveraged AI-augmented development to optimize system logic. These experiences have honed my ability to analyze repetitive, operationally intensive tasks and design robust, scalable automation workflows. 
+My background directly aligns with your need for developing robust workflow automations. For my project, ClockWise, I designed and developed a full-stack HRMS application using Laravel and PHP that successfully automated complex payroll and attendance tracking processes. Additionally, in my JomOrder project, I leveraged AI-augmented development to build a highly efficient F&B ordering system. These experiences have sharpened my ability to analyze manual, repetitive workflows, translate them into automated solutions, and write clean, maintainable code using Python, PHP, and databases like MySQL. 
 
-Furthermore, my internship at Goolee Sdn Bhd proved my capability to document workflows, manage databases, and collaborate with business stakeholders to deliver stable, user-friendly systems. I am highly adaptable, detail-oriented, and fully prepared to ensure all automation initiatives align with Allianz’s high standards of data integrity and operational stability.
+I am highly adaptable, detail-oriented, and ready to ensure your automation workflows remain stable and well-documented. Having completed my studies, I am available to start immediately and eager to bring my technical skills to your dynamic team in Kuala Lumpur.
 
-I am available to start immediately and would love the opportunity to discuss how my technical skills in automation, Python, and data analysis can support your team’s goals. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview.
+I would welcome the opportunity to discuss how my automation and data skills can add value to Allianz Malaysia. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. 
 
 Thank you for your time and consideration.
 
-Sincerely,
-
+Sincerely,  
 Muhammad Syafiq Norhazwan
 
 ---
