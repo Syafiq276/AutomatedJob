@@ -8,8 +8,7 @@
 ---
 
 Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com  
-+60-1157217903  
+fathazwan14@gmail.com | +60-1157217903  
 
 Hiring Manager  
 Nusanutra Science Sdn Bhd  
@@ -17,11 +16,13 @@ Bukit Raja, Klang, Selangor
 
 Dear Hiring Manager,
 
-I am writing to express my strong interest in the Digital Technology Executive position at Nusanutra Science Sdn Bhd. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a robust foundation in full-stack development, I am eager to help Nusanutra digitalize and automate its business workflows.
+I am writing to express my strong interest in the Digital Technology Executive position at Nusanutra Science Sdn Bhd. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and hands-on experience in full-stack development, I am eager to help Nusanutra digitalize operations, automate workflows, and build efficient business systems.
 
-Your requirement for a hands-on developer who leverages AI-assisted coding to build practical business solutions perfectly aligns with my expertise. For my project *JomOrder*, a F&B POS system, I actively utilized AI-augmented development to accelerate delivery and optimize performance. Additionally, I single-handedly developed and deployed *ClockWise*, an HRMS on Render using Laravel and MySQL that automates complex payroll and attendance tracking. Through these projects and my internship at Goolee Sdn Bhd, I have mastered PHP, JavaScript, SQL, Git, and RESTful APIs to translate operational requirements into seamless digital systems.
+Your requirement for a developer who can translate business needs into digital solutions aligns perfectly with my background. For my project **ClockWise**, I independently developed a full-stack HRMS using Laravel and MySQL, deploying it on Render to automate payroll and attendance tracking. Additionally, for **JomOrder**, an F&B POS system, I actively leveraged AI-augmented development to accelerate coding and optimize system architecture. These projects, combined with my proficiency in JavaScript, SQL, Git, and RESTful APIs, demonstrate my ability to rapidly build, integrate, and maintain robust web applications.
 
-I am highly adaptable, passionate about leveraging modern technology for business efficiency, and available to start immediately. I would welcome the opportunity to discuss how my technical skills can support Nusanutra’s digital initiatives. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview.
+During my internship at Goolee Sdn Bhd, I successfully developed a Trainer Development Management System using PHP, proving my capability to work in fast-paced environments and deliver practical digital tools. I am highly adaptable, comfortable using modern AI tools to speed up development, and ready to start immediately. 
+
+I would love the opportunity to discuss how my technical skills and proactive mindset can add value to your team at Bukit Raja. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview. 
 
 Thank you for your time and consideration.
 

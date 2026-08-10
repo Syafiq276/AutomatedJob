@@ -17,13 +17,15 @@ Hiring Manager
 Carra  
 Greater Kuala Lumpur  
 
-Dear Hiring Team at Carra,
+Dear Hiring Manager,
 
-I am writing to express my strong interest in the Junior AI Developer (12 Months Contract) position at Carra. As an IT graduate from UiTM Arau with a CGPA of 3.51 specializing in Big Data, I am eager to apply my software engineering foundation and passion for automation to help Carra unlock the power of data and technology.
+I am writing to express my strong interest in the Junior AI Developer (12 Months Contract) position at Carra. As an IT graduate from UiTM Arau with a CGPA of 3.51 majoring in Big Data, I am eager to apply my technical foundation to help Carra leverage advanced technologies and unlock the power of data.
 
-My background directly aligns with your technical environment. During my academic and personal projects, I have developed a strong command of backend development, Git, and Docker. In my "JomOrder" POS system project, I successfully integrated AI-augmented development workflows to optimize system performance and streamline coding efficiency. Additionally, my experience building "ClockWise," a full-stack HRMS, sharpened my skills in automating complex workflows, managing databases, and containerizing applications. Combined with my exposure to Python and React, I am well-equipped to quickly adapt to Carra’s tech stack and contribute to your development pipeline from day one. 
+My background aligns closely with your technical stack, particularly in backend development, automation, and modern frameworks. For my project *JomOrder*, a F&B POS system, I utilized AI-augmented development to streamline features, showcasing my ability to quickly adapt and integrate AI tools to accelerate software delivery. Additionally, I built *ClockWise*, a full-stack HRMS deployed on Render using Git for version control, where I designed and automated complex payroll and attendance logic. 
 
-As an immediate starter, I am excited about the opportunity to bring my analytical mindset, backend expertise, and drive for innovation to your team. I welcome the opportunity to discuss how my skills can support Carra's upcoming projects. Please feel free to contact me at +60-1157217903 or fathazwan14@gmail.com to arrange an interview. 
+Through these projects and my internship experience, I have developed solid proficiency in Python, React, Git, Docker, and cloud-based deployment. I am highly adaptable, comfortable working in fast-paced environments, and ready to contribute to Carra’s automation and backend initiatives from day one. I am available to start immediately.
+
+I would welcome the opportunity to discuss how my technical skills and passion for data-driven innovation can support your team's objectives. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview.
 
 Thank you for your time and consideration.
 
