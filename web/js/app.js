@@ -520,33 +520,6 @@ function applyJobFilters() {
     });
 }
 
-    // Re-append sorted rows to container
-    rows.forEach(row => container.appendChild(row));
-
-    // Update job counter badge
-    const countEl = document.getElementById('filtered-jobs-count');
-    if (countEl) countEl.innerText = visibleCount;
-
-    // Toggle empty state message
-    const noMsg = document.getElementById('no-filtered-jobs-msg');
-    if (noMsg) {
-        if (visibleCount === 0 && rows.length > 0) {
-            noMsg.classList.remove('d-none');
-        } else {
-            noMsg.classList.add('d-none');
-        }
-    }
-
-    // Sync filter state with URL parameters (without refreshing page)
-    updateURLParams({
-        search: searchVal,
-        sort: sortVal,
-        sector: sectorVal,
-        programme: programmeVal,
-        jobtype: jobTypeVal
-    });
-}
-
 /**
  * Resets all filter dropdowns and search input to default values.
  */

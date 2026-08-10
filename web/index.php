@@ -213,9 +213,12 @@ $avg_score      = $db->query("SELECT AVG(score) FROM jobs")->fetchColumn() ?: 0.
                 </select>
             </div>
 
-            <!-- Reset Filters Button -->
-            <div class="col-lg-1 col-md-12 text-end">
-                <button class="btn btn-sm btn-outline-secondary w-100 rounded-pill" onclick="resetJobFilters()" title="Reset all filters">
+            <!-- Action Buttons: Apply & Reset -->
+            <div class="col-lg-1 col-md-12 text-end d-flex flex-row flex-lg-column gap-1">
+                <button class="btn btn-sm btn-primary w-100 rounded-pill py-1 fw-semibold" onclick="applyJobFilters()" title="Apply current filters">
+                    ⚡ Apply
+                </button>
+                <button class="btn btn-sm btn-outline-secondary w-100 rounded-pill py-1" onclick="resetJobFilters()" title="Reset all filters">
                     🔄 Reset
                 </button>
             </div>
