@@ -131,6 +131,69 @@ svg.progress-ring {
     border: 1px solid rgba(139, 92, 246, 0.3); 
 }
 
+/* Metadata Badges (Sector, Programme, Job Type) */
+.badge-tag {
+    font-size: 0.72rem;
+    font-weight: 500;
+    padding: 0.25em 0.6em;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.badge-tag-sector {
+    background-color: rgba(59, 130, 246, 0.15);
+    color: #60a5fa;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.badge-tag-programme {
+    background-color: rgba(245, 158, 11, 0.15);
+    color: #fbbf24;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.badge-tag-jobtype {
+    background-color: rgba(236, 72, 153, 0.15);
+    color: #f472b6;
+    border: 1px solid rgba(236, 72, 153, 0.3);
+}
+
+/* Dark Glassmorphic Filter Controls */
+.filter-bar {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    backdrop-filter: blur(12px);
+}
+
+.form-dark-control, .form-dark-select {
+    background-color: rgba(15, 23, 42, 0.8) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    color: var(--text-main) !important;
+    border-radius: 10px;
+    font-size: 0.875rem;
+    padding: 0.5rem 0.85rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-dark-control:focus, .form-dark-select:focus {
+    border-color: var(--accent-primary) !important;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25) !important;
+    outline: none;
+}
+
+.form-dark-control::placeholder {
+    color: var(--text-secondary);
+    opacity: 0.7;
+}
+
+.form-dark-select option {
+    background-color: #0f172a;
+    color: #f3f4f6;
+}
+
 .btn-custom {
     border-radius: 8px;
     font-weight: 500;
@@ -161,3 +224,4 @@ svg.progress-ring {
 .view-pane.active-pane {
     display: block;
 }
+

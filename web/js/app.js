@@ -225,8 +225,13 @@ function resetTriggerButton() {
     btn.innerHTML = '🔄 Run Scraper Now';
 }
 
-// Automatically check scraper status on dashboard load (restores progress bar if running)
+// Automatically check scraper status & initialize job filters on dashboard load
 document.addEventListener('DOMContentLoaded', () => {
+    // 1. Initialize metadata badges and load filter state
+    initJobMetadataBadges();
+    loadFiltersFromURL();
+
+    // 2. Poll scraper status
     fetch('api.php', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
@@ -283,3 +288,239 @@ function generateCoverLetter(jobId) {
         btn.innerHTML = originalText;
     });
 }
+
+/**
+ * ══════════════════════════════════════════════════════════════
+ *  JOB METADATA DETECTION & INTERACTIVE FILTER ENGINE
+ * ══════════════════════════════════════════════════════════════
+ */
+
+/**
+ * Extracts or detects Sector, Programme, and Job Type metadata for a job post.
+ */
+function detectJobMetaData(row) {
+    const title = (row.dataset.title || '').toLowerCase();
+    const company = (row.dataset.company || '').toLowerCase();
+    const desc = (row.dataset.description || '').toLowerCase();
+    const explicitSector = (row.dataset.sector || '').trim();
+    const explicitProgramme = (row.dataset.programme || '').trim();
+    const explicitJobType = (row.dataset.jobtype || '').trim();
+
+    const fullText = `${title} ${company} ${desc}`;
+
+    // 1. Determine Programme Type
+    let programmeKey = 'fresh_grad';
+    let programmeLabel = '🌱 Fresh Grad / Entry';
+    if (explicitProgramme) {
+        programmeKey = explicitProgramme;
+        programmeLabel = explicitProgramme;
+    } else if (/protege|protégé|management trainee|graduate programme|graduate program|trainee|cadet/i.test(fullText)) {
+        programmeKey = 'graduate_programme';
+        programmeLabel = '🌟 Trainee / Protégé';
+    } else if (/intern|internship|industrial training|attachment/i.test(fullText)) {
+        programmeKey = 'internship';
+        programmeLabel = '🎯 Internship';
+    } else if (/senior|lead|principal|head|manager/i.test(fullText)) {
+        programmeKey = 'experienced';
+        programmeLabel = '💼 Mid / Senior';
+    } else if (/fresh grad|entry level|junior|associate/i.test(fullText)) {
+        programmeKey = 'fresh_grad';
+        programmeLabel = '🌱 Fresh Grad / Entry';
+    }
+
+    // 2. Determine Job / Employment Type
+    let jobTypeKey = 'full_time';
+    let jobTypeLabel = '💼 Full-Time';
+    if (explicitJobType) {
+        jobTypeKey = explicitJobType;
+        jobTypeLabel = explicitJobType;
+    } else if (/contract|temporary|\btemp\b/i.test(fullText)) {
+        jobTypeKey = 'contract';
+        jobTypeLabel = '📝 Contract';
+    } else if (/part-time|part time|freelance/i.test(fullText)) {
+        jobTypeKey = 'part_time';
+        jobTypeLabel = '⏱️ Part-Time';
+    } else if (/intern|internship/i.test(fullText)) {
+        jobTypeKey = 'internship';
+        jobTypeLabel = '🎓 Internship';
+    }
+
+    // 3. Determine Sector
+    let sectorKey = 'it_web';
+    let sectorLabel = '🌐 IT & Web Dev';
+    if (explicitSector) {
+        sectorKey = explicitSector;
+        sectorLabel = explicitSector;
+    } else if (/data|analyst|analytics|big data|\bbi\b|machine learning|\bai\b|\bsql\b/i.test(fullText) && !/web developer|php|laravel/i.test(title)) {
+        sectorKey = 'data_ai';
+        sectorLabel = '📊 Data & Analytics';
+    } else if (/software engineer|devops|\bqa\b|tester|systems engineer|backend engineer/i.test(fullText)) {
+        sectorKey = 'engineering';
+        sectorLabel = '⚙️ Software Eng';
+    } else if (/bank|finance|accountant|audit|business analyst|fintech/i.test(fullText)) {
+        sectorKey = 'finance';
+        sectorLabel = '💼 Finance & Business';
+    } else if (/web|developer|php|laravel|codeigniter|frontend|backend|full stack|fullstack|react|wordpress|html|javascript|it executive|software/i.test(fullText)) {
+        sectorKey = 'it_web';
+        sectorLabel = '🌐 IT & Web Dev';
+    } else {
+        sectorKey = 'other';
+        sectorLabel = '📌 Other Sector';
+    }
+
+    return {
+        programmeKey, programmeLabel,
+        jobTypeKey, jobTypeLabel,
+        sectorKey, sectorLabel
+    };
+}
+
+/**
+ * Initializes metadata badges on each job row element.
+ */
+function initJobMetadataBadges() {
+    const rows = document.querySelectorAll('.job-row');
+    rows.forEach(row => {
+        const meta = detectJobMetaData(row);
+        
+        // Save computed metadata in dataset attributes for fast filtering
+        row.dataset.computedSector = meta.sectorKey;
+        row.dataset.computedProgramme = meta.programmeKey;
+        row.dataset.computedJobtype = meta.jobTypeKey;
+
+        // Populate metadata badge UI container
+        const container = row.querySelector('.metadata-badges-container');
+        if (container) {
+            container.innerHTML = `
+                <span class="badge-tag badge-tag-sector">${meta.sectorLabel}</span>
+                <span class="badge-tag badge-tag-programme">${meta.programmeLabel}</span>
+                <span class="badge-tag badge-tag-jobtype">${meta.jobTypeLabel}</span>
+            `;
+        }
+    });
+}
+
+/**
+ * Applies search keyword, sector, programme, job type filters, and sort order.
+ */
+function applyJobFilters() {
+    const searchVal = (document.getElementById('filter-search')?.value || '').trim().toLowerCase();
+    const sortVal = document.getElementById('filter-sort')?.value || 'newest';
+    const sectorVal = document.getElementById('filter-sector')?.value || 'all';
+    const programmeVal = document.getElementById('filter-programme')?.value || 'all';
+    const jobTypeVal = document.getElementById('filter-jobtype')?.value || 'all';
+
+    const container = document.getElementById('jobs-container');
+    const rows = Array.from(document.querySelectorAll('.job-row'));
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+        const title = (row.dataset.title || '').toLowerCase();
+        const company = (row.dataset.company || '').toLowerCase();
+        const location = (row.dataset.location || '').toLowerCase();
+        const desc = (row.dataset.description || '').toLowerCase();
+
+        const sector = row.dataset.computedSector || 'all';
+        const programme = row.dataset.computedProgramme || 'all';
+        const jobType = row.dataset.computedJobtype || 'all';
+
+        // Check match conditions
+        const matchesSearch = !searchVal || title.includes(searchVal) || company.includes(searchVal) || location.includes(searchVal) || desc.includes(searchVal);
+        const matchesSector = sectorVal === 'all' || sector === sectorVal;
+        const matchesProgramme = programmeVal === 'all' || programme === programmeVal;
+        const matchesJobType = jobTypeVal === 'all' || jobType === jobTypeVal;
+
+        if (matchesSearch && matchesSector && matchesProgramme && matchesJobType) {
+            row.classList.remove('d-none');
+            visibleCount++;
+        } else {
+            row.classList.add('d-none');
+        }
+    });
+
+    // Sort visible job rows
+    rows.sort((a, b) => {
+        if (sortVal === 'score') {
+            return parseFloat(b.dataset.score || 0) - parseFloat(a.dataset.score || 0);
+        } else if (sortVal === 'oldest') {
+            return parseInt(a.dataset.created || 0) - parseInt(b.dataset.created || 0);
+        } else {
+            // Default: newest first
+            return parseInt(b.dataset.created || 0) - parseInt(a.dataset.created || 0);
+        }
+    });
+
+    // Re-append sorted rows to container
+    rows.forEach(row => container.appendChild(row));
+
+    // Update job counter badge
+    const countEl = document.getElementById('filtered-jobs-count');
+    if (countEl) countEl.innerText = visibleCount;
+
+    // Toggle empty state message
+    const noMsg = document.getElementById('no-filtered-jobs-msg');
+    if (noMsg) {
+        if (visibleCount === 0 && rows.length > 0) {
+            noMsg.classList.remove('d-none');
+        } else {
+            noMsg.classList.add('d-none');
+        }
+    }
+
+    // Sync filter state with URL parameters (without refreshing page)
+    updateURLParams({
+        search: searchVal,
+        sort: sortVal,
+        sector: sectorVal,
+        programme: programmeVal,
+        jobtype: jobTypeVal
+    });
+}
+
+/**
+ * Resets all filter dropdowns and search input to default values.
+ */
+function resetJobFilters() {
+    if (document.getElementById('filter-search')) document.getElementById('filter-search').value = '';
+    if (document.getElementById('filter-sort')) document.getElementById('filter-sort').value = 'newest';
+    if (document.getElementById('filter-sector')) document.getElementById('filter-sector').value = 'all';
+    if (document.getElementById('filter-programme')) document.getElementById('filter-programme').value = 'all';
+    if (document.getElementById('filter-jobtype')) document.getElementById('filter-jobtype').value = 'all';
+    applyJobFilters();
+}
+
+/**
+ * Updates URL search parameters for persistent bookmarking.
+ */
+function updateURLParams(params) {
+    const url = new URL(window.location.href);
+    Object.keys(params).forEach(key => {
+        if (params[key] && params[key] !== 'all' && params[key] !== 'newest') {
+            url.searchParams.set(key, params[key]);
+        } else {
+            url.searchParams.delete(key);
+        }
+    });
+    window.history.replaceState({}, '', url.toString());
+}
+
+/**
+ * Restores filter values from URL query parameters on initial page load.
+ */
+function loadFiltersFromURL() {
+    const url = new URL(window.location.href);
+    const search = url.searchParams.get('search');
+    const sort = url.searchParams.get('sort');
+    const sector = url.searchParams.get('sector');
+    const programme = url.searchParams.get('programme');
+    const jobtype = url.searchParams.get('jobtype');
+
+    if (search && document.getElementById('filter-search')) document.getElementById('filter-search').value = search;
+    if (sort && document.getElementById('filter-sort')) document.getElementById('filter-sort').value = sort;
+    if (sector && document.getElementById('filter-sector')) document.getElementById('filter-sector').value = sector;
+    if (programme && document.getElementById('filter-programme')) document.getElementById('filter-programme').value = programme;
+    if (jobtype && document.getElementById('filter-jobtype')) document.getElementById('filter-jobtype').value = jobtype;
+
+    applyJobFilters();
+}
+

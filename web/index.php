@@ -25,8 +25,24 @@ try {
         description TEXT,
         cover_letter TEXT,
         status TEXT DEFAULT 'pending',
+        sector TEXT,
+        programme TEXT,
+        employment_type TEXT,
         created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )");
+
+    // Auto-migrate table columns if upgrading from earlier DB schema
+    $cols = $db->query("PRAGMA table_info(jobs)")->fetchAll(PDO::FETCH_ASSOC);
+    $col_names = array_column($cols, 'name');
+    if (!in_array('sector', $col_names)) {
+        $db->exec("ALTER TABLE jobs ADD COLUMN sector TEXT");
+    }
+    if (!in_array('programme', $col_names)) {
+        $db->exec("ALTER TABLE jobs ADD COLUMN programme TEXT");
+    }
+    if (!in_array('employment_type', $col_names)) {
+        $db->exec("ALTER TABLE jobs ADD COLUMN employment_type TEXT");
+    }
 } catch (PDOException $e) {
     die("Database Connection Error: " . $e->getMessage());
 }
@@ -38,7 +54,7 @@ if (!in_array($status_filter, ['pending', 'applied', 'archived'])) {
 }
 
 // Fetch matches matching active filter status
-$stmt = $db->prepare("SELECT * FROM jobs WHERE status = :status ORDER BY score DESC, created_at DESC");
+$stmt = $db->prepare("SELECT * FROM jobs WHERE status = :status ORDER BY created_at DESC, score DESC");
 $stmt->execute([':status' => $status_filter]);
 $jobs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -119,8 +135,8 @@ $avg_score      = $db->query("SELECT AVG(score) FROM jobs")->fetchColumn() ?: 0.
         </div>
     </section>
 
-    <!-- Navigation Pills -->
-    <section class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3">
+    <!-- Navigation Pills & Jobs Counter -->
+    <section class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-3">
         <ul class="nav nav-pills gap-2">
             <li class="nav-item">
                 <a class="nav-link <?php echo $status_filter === 'pending' ? 'active' : ''; ?>" href="?status=pending">
@@ -138,18 +154,101 @@ $avg_score      = $db->query("SELECT AVG(score) FROM jobs")->fetchColumn() ?: 0.
                 </a>
             </li>
         </ul>
+        <div class="text-secondary small">
+            Showing <span id="filtered-jobs-count" class="fw-bold text-light"><?php echo count($jobs); ?></span> of <?php echo count($jobs); ?> jobs
+        </div>
+    </section>
+
+    <!-- Interactive Filter & Search Controls Panel -->
+    <section class="filter-bar p-3 mb-4">
+        <div class="row g-2 align-items-center">
+            <!-- Search Keyword Input -->
+            <div class="col-lg-3 col-md-6">
+                <div class="input-group input-group-sm">
+                    <span class="input-group-text bg-transparent border-0 text-secondary pe-1">🔍</span>
+                    <input type="text" id="filter-search" class="form-control form-dark-control" placeholder="Search title, company, tech..." oninput="applyJobFilters()">
+                </div>
+            </div>
+
+            <!-- Sort By Selector -->
+            <div class="col-lg-2 col-md-6">
+                <select id="filter-sort" class="form-select form-select-sm form-dark-select" onchange="applyJobFilters()">
+                    <option value="newest">📅 Newest First</option>
+                    <option value="score">🎯 Highest Score</option>
+                    <option value="oldest">⏳ Oldest First</option>
+                </select>
+            </div>
+
+            <!-- Sector Selector -->
+            <div class="col-lg-2 col-md-4">
+                <select id="filter-sector" class="form-select form-select-sm form-dark-select" onchange="applyJobFilters()">
+                    <option value="all">🏢 All Sectors</option>
+                    <option value="it_web">🌐 IT & Web Dev</option>
+                    <option value="data_ai">📊 Data & Analytics</option>
+                    <option value="engineering">⚙️ Software Eng</option>
+                    <option value="finance">💼 Finance & Business</option>
+                    <option value="other">📌 Other Sectors</option>
+                </select>
+            </div>
+
+            <!-- Programme Selector -->
+            <div class="col-lg-2 col-md-4">
+                <select id="filter-programme" class="form-select form-select-sm form-dark-select" onchange="applyJobFilters()">
+                    <option value="all">🎓 All Programmes</option>
+                    <option value="graduate_programme">🌟 Trainee / Protégé</option>
+                    <option value="fresh_grad">🌱 Fresh Grad / Entry</option>
+                    <option value="internship">🎯 Internship</option>
+                    <option value="experienced">💼 Mid / Senior Level</option>
+                </select>
+            </div>
+
+            <!-- Employment Type Selector -->
+            <div class="col-lg-2 col-md-4">
+                <select id="filter-jobtype" class="form-select form-select-sm form-dark-select" onchange="applyJobFilters()">
+                    <option value="all">⏳ All Job Types</option>
+                    <option value="full_time">💼 Full-Time</option>
+                    <option value="contract">📝 Contract / Temp</option>
+                    <option value="part_time">⏱️ Part-Time / Freelance</option>
+                    <option value="internship">🎓 Internship</option>
+                </select>
+            </div>
+
+            <!-- Reset Filters Button -->
+            <div class="col-lg-1 col-md-12 text-end">
+                <button class="btn btn-sm btn-outline-secondary w-100 rounded-pill" onclick="resetJobFilters()" title="Reset all filters">
+                    🔄 Reset
+                </button>
+            </div>
+        </div>
     </section>
 
     <!-- Job Listings Panel -->
-    <section class="glass-card p-2">
+    <section class="glass-card p-2" id="jobs-container">
         <?php if (empty($jobs)): ?>
-            <div class="text-center py-5 text-secondary">
+            <div class="text-center py-5 text-secondary" id="no-jobs-fallback">
                 <p class="mb-0">No job matches found in this category.</p>
                 <small class="small text-muted font-monospace">API endpoint: web/api.php</small>
             </div>
         <?php else: ?>
+            <div class="text-center py-5 text-secondary d-none" id="no-filtered-jobs-msg">
+                <p class="mb-1 fw-bold text-light">No jobs matching your filter criteria.</p>
+                <small class="text-secondary">Try adjusting your search terms or resetting the filter options.</small>
+                <div class="mt-3">
+                    <button class="btn btn-sm btn-outline-primary rounded-pill px-3" onclick="resetJobFilters()">Reset Filters</button>
+                </div>
+            </div>
             <?php foreach ($jobs as $job): ?>
-                <div class="job-row">
+                <div class="job-row" 
+                     data-id="<?php echo $job['id']; ?>"
+                     data-title="<?php echo htmlspecialchars($job['title']); ?>"
+                     data-company="<?php echo htmlspecialchars($job['company']); ?>"
+                     data-location="<?php echo htmlspecialchars($job['location']); ?>"
+                     data-score="<?php echo $job['score']; ?>"
+                     data-created="<?php echo strtotime($job['created_at']); ?>"
+                     data-sector="<?php echo htmlspecialchars($job['sector'] ?? ''); ?>"
+                     data-programme="<?php echo htmlspecialchars($job['programme'] ?? ''); ?>"
+                     data-jobtype="<?php echo htmlspecialchars($job['employment_type'] ?? ''); ?>"
+                     data-description="<?php echo htmlspecialchars(substr(strip_tags($job['description'] ?? ''), 0, 500)); ?>">
                     <div class="d-flex gap-3 align-items-center flex-wrap">
                         <!-- Match Score Progress SVG -->
                         <div class="circle-progress-container">
@@ -170,6 +269,10 @@ $avg_score      = $db->query("SELECT AVG(score) FROM jobs")->fetchColumn() ?: 0.
                             <p class="mb-1 text-light-50">
                                 🏢 <b><?php echo htmlspecialchars($job['company']); ?></b> · 📍 <?php echo htmlspecialchars($job['location']); ?>
                             </p>
+                            <!-- Dynamic Metadata Badges Container -->
+                            <div class="d-flex align-items-center gap-2 flex-wrap mb-1 metadata-badges-container">
+                                <!-- Populated dynamically by JS -->
+                            </div>
                             <div class="small text-secondary">
                                 <?php if ($job['salary']): ?>💰 <?php echo htmlspecialchars($job['salary']); ?> · <?php endif; ?>
                                 🕘 Sync time: <?php echo date('d M Y, h:i A', strtotime($job['created_at'])); ?>

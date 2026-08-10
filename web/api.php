@@ -10,10 +10,10 @@ $API_KEY = "my_secure_handshake_key_12345"; // Match this with your .env
 $DB_FILE = __DIR__ . "/jobs.db";
 
 // GitHub actions workflow trigger configurations
-$GITHUB_PAT      = "YOUR_GITHUB_PAT_HERE"; // Paste your GitHub Personal Access Token here
+$GITHUB_PAT = ""; // Paste your GitHub Personal Access Token here on cPanel
 $GITHUB_REPO = "Syafiq276/AutomatedJob"; // Your GitHub username/repo
 $GITHUB_WORKFLOW = "scrape_jobs.yml";       // Scraper workflow filename
-$GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"; // Paste your Gemini API key here
+$GEMINI_API_KEY = ""; // Paste your Gemini API key here on cPanel
 
 
 /**
@@ -161,8 +161,24 @@ try {
         description TEXT,
         cover_letter TEXT,
         status TEXT DEFAULT 'pending',
+        sector TEXT,
+        programme TEXT,
+        employment_type TEXT,
         created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )");
+
+    // Auto-migrate table columns if upgrading from earlier DB schema
+    $cols = $db->query("PRAGMA table_info(jobs)")->fetchAll(PDO::FETCH_ASSOC);
+    $col_names = array_column($cols, 'name');
+    if (!in_array('sector', $col_names)) {
+        $db->exec("ALTER TABLE jobs ADD COLUMN sector TEXT");
+    }
+    if (!in_array('programme', $col_names)) {
+        $db->exec("ALTER TABLE jobs ADD COLUMN programme TEXT");
+    }
+    if (!in_array('employment_type', $col_names)) {
+        $db->exec("ALTER TABLE jobs ADD COLUMN employment_type TEXT");
+    }
 } catch (PDOException $e) {
     http_response_code(500);
     echo json_encode(["error" => "Database Connection Error: " . $e->getMessage()]);
@@ -199,8 +215,8 @@ if (isset($input['api_key'])) {
         }
 
         // Insert new match
-        $stmt = $db->prepare("INSERT INTO jobs (title, company, location, url, source, score, salary, posted_date, description, cover_letter) 
-                              VALUES (:title, :company, :location, :url, :source, :score, :salary, :posted_date, :description, :cover_letter)");
+        $stmt = $db->prepare("INSERT INTO jobs (title, company, location, url, source, score, salary, posted_date, description, cover_letter, sector, programme, employment_type) 
+                              VALUES (:title, :company, :location, :url, :source, :score, :salary, :posted_date, :description, :cover_letter, :sector, :programme, :employment_type)");
         $stmt->execute([
             ':title' => $input['title'],
             ':company' => $input['company'],
@@ -211,7 +227,10 @@ if (isset($input['api_key'])) {
             ':salary' => $input['salary'] ?? '',
             ':posted_date' => $input['posted_date'] ?? '',
             ':description' => $input['description'] ?? '',
-            ':cover_letter' => $input['cover_letter'] ?? ''
+            ':cover_letter' => $input['cover_letter'] ?? '',
+            ':sector' => $input['sector'] ?? null,
+            ':programme' => $input['programme'] ?? null,
+            ':employment_type' => $input['employment_type'] ?? null
         ]);
 
         echo json_encode(["status" => "success", "id" => $db->lastInsertId()]);
