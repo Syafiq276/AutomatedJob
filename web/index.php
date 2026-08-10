@@ -75,7 +75,7 @@ $avg_score      = $db->query("SELECT AVG(score) FROM jobs")->fetchColumn() ?: 0.
     <!-- Google Fonts: Outfit -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Custom Theme Overrides -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?v=<?php echo filemtime(__DIR__ . '/css/style.css'); ?>" rel="stylesheet">
     <!-- html2pdf.js (A4 PDF download helper) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </head>
@@ -353,6 +353,6 @@ $avg_score      = $db->query("SELECT AVG(score) FROM jobs")->fetchColumn() ?: 0.
 </div>
 
 <!-- App Controller Script -->
-<script src="js/app.js"></script>
+<script src="js/app.js?v=<?php echo filemtime(__DIR__ . '/js/app.js'); ?>"></script>
 </body>
 </html>

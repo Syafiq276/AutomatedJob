@@ -302,18 +302,28 @@ function detectJobMetaData(row) {
     const title = (row.dataset.title || '').toLowerCase();
     const company = (row.dataset.company || '').toLowerCase();
     const desc = (row.dataset.description || '').toLowerCase();
-    const explicitSector = (row.dataset.sector || '').trim();
-    const explicitProgramme = (row.dataset.programme || '').trim();
-    const explicitJobType = (row.dataset.jobtype || '').trim();
+    const explicitSector = (row.dataset.sector || '').trim().toLowerCase();
+    const explicitProgramme = (row.dataset.programme || '').trim().toLowerCase();
+    const explicitJobType = (row.dataset.jobtype || '').trim().toLowerCase();
 
     const fullText = `${title} ${company} ${desc}`;
 
-    // 1. Determine Programme Type
+    // 1. Determine Programme Type (Mapped to dropdown keys)
     let programmeKey = 'fresh_grad';
     let programmeLabel = '🌱 Fresh Grad / Entry';
-    if (explicitProgramme) {
-        programmeKey = explicitProgramme;
-        programmeLabel = explicitProgramme;
+
+    if (explicitProgramme === 'graduate_programme' || explicitProgramme.includes('trainee') || explicitProgramme.includes('protege') || explicitProgramme.includes('protégé')) {
+        programmeKey = 'graduate_programme';
+        programmeLabel = '🌟 Trainee / Protégé';
+    } else if (explicitProgramme === 'internship' || explicitProgramme.includes('intern')) {
+        programmeKey = 'internship';
+        programmeLabel = '🎯 Internship';
+    } else if (explicitProgramme === 'experienced' || explicitProgramme.includes('senior') || explicitProgramme.includes('mid')) {
+        programmeKey = 'experienced';
+        programmeLabel = '💼 Mid / Senior';
+    } else if (explicitProgramme === 'fresh_grad' || explicitProgramme.includes('fresh') || explicitProgramme.includes('entry')) {
+        programmeKey = 'fresh_grad';
+        programmeLabel = '🌱 Fresh Grad / Entry';
     } else if (/protege|protégé|management trainee|graduate programme|graduate program|trainee|cadet/i.test(fullText)) {
         programmeKey = 'graduate_programme';
         programmeLabel = '🌟 Trainee / Protégé';
@@ -323,17 +333,27 @@ function detectJobMetaData(row) {
     } else if (/senior|lead|principal|head|manager/i.test(fullText)) {
         programmeKey = 'experienced';
         programmeLabel = '💼 Mid / Senior';
-    } else if (/fresh grad|entry level|junior|associate/i.test(fullText)) {
+    } else {
         programmeKey = 'fresh_grad';
         programmeLabel = '🌱 Fresh Grad / Entry';
     }
 
-    // 2. Determine Job / Employment Type
+    // 2. Determine Job / Employment Type (Mapped to dropdown keys)
     let jobTypeKey = 'full_time';
     let jobTypeLabel = '💼 Full-Time';
-    if (explicitJobType) {
-        jobTypeKey = explicitJobType;
-        jobTypeLabel = explicitJobType;
+
+    if (explicitJobType === 'contract' || explicitJobType.includes('contract') || explicitJobType.includes('temp')) {
+        jobTypeKey = 'contract';
+        jobTypeLabel = '📝 Contract';
+    } else if (explicitJobType === 'part_time' || explicitJobType.includes('part')) {
+        jobTypeKey = 'part_time';
+        jobTypeLabel = '⏱️ Part-Time';
+    } else if (explicitJobType === 'internship' || explicitJobType.includes('intern')) {
+        jobTypeKey = 'internship';
+        jobTypeLabel = '🎓 Internship';
+    } else if (explicitJobType === 'full_time' || explicitJobType.includes('full')) {
+        jobTypeKey = 'full_time';
+        jobTypeLabel = '💼 Full-Time';
     } else if (/contract|temporary|\btemp\b/i.test(fullText)) {
         jobTypeKey = 'contract';
         jobTypeLabel = '📝 Contract';
@@ -343,14 +363,30 @@ function detectJobMetaData(row) {
     } else if (/intern|internship/i.test(fullText)) {
         jobTypeKey = 'internship';
         jobTypeLabel = '🎓 Internship';
+    } else {
+        jobTypeKey = 'full_time';
+        jobTypeLabel = '💼 Full-Time';
     }
 
-    // 3. Determine Sector
+    // 3. Determine Sector (Mapped to dropdown keys)
     let sectorKey = 'it_web';
     let sectorLabel = '🌐 IT & Web Dev';
-    if (explicitSector) {
-        sectorKey = explicitSector;
-        sectorLabel = explicitSector;
+
+    if (explicitSector === 'data_ai' || explicitSector.includes('data') || explicitSector.includes('analytics')) {
+        sectorKey = 'data_ai';
+        sectorLabel = '📊 Data & Analytics';
+    } else if (explicitSector === 'engineering' || explicitSector.includes('software') || explicitSector.includes('devops')) {
+        sectorKey = 'engineering';
+        sectorLabel = '⚙️ Software Eng';
+    } else if (explicitSector === 'finance' || explicitSector.includes('finance') || explicitSector.includes('bank')) {
+        sectorKey = 'finance';
+        sectorLabel = '💼 Finance & Business';
+    } else if (explicitSector === 'it_web' || explicitSector.includes('web') || explicitSector.includes('it') || explicitSector.includes('developer')) {
+        sectorKey = 'it_web';
+        sectorLabel = '🌐 IT & Web Dev';
+    } else if (explicitSector === 'other' || explicitSector.includes('other')) {
+        sectorKey = 'other';
+        sectorLabel = '📌 Other Sector';
     } else if (/data|analyst|analytics|big data|\bbi\b|machine learning|\bai\b|\bsql\b/i.test(fullText) && !/web developer|php|laravel/i.test(title)) {
         sectorKey = 'data_ai';
         sectorLabel = '📊 Data & Analytics';
@@ -411,7 +447,9 @@ function applyJobFilters() {
     const jobTypeVal = document.getElementById('filter-jobtype')?.value || 'all';
 
     const container = document.getElementById('jobs-container');
-    const rows = Array.from(document.querySelectorAll('.job-row'));
+    if (!container) return;
+
+    const rows = Array.from(container.querySelectorAll('.job-row'));
     let visibleCount = 0;
 
     rows.forEach(row => {
@@ -438,17 +476,49 @@ function applyJobFilters() {
         }
     });
 
-    // Sort visible job rows
+    // Sort visible job rows safely
     rows.sort((a, b) => {
+        const scoreA = parseFloat(a.dataset.score || 0) || 0;
+        const scoreB = parseFloat(b.dataset.score || 0) || 0;
+        const createdA = parseInt(a.dataset.created || 0) || 0;
+        const createdB = parseInt(b.dataset.created || 0) || 0;
+
         if (sortVal === 'score') {
-            return parseFloat(b.dataset.score || 0) - parseFloat(a.dataset.score || 0);
+            return scoreB - scoreA;
         } else if (sortVal === 'oldest') {
-            return parseInt(a.dataset.created || 0) - parseInt(b.dataset.created || 0);
+            return createdA - createdB;
         } else {
             // Default: newest first
-            return parseInt(b.dataset.created || 0) - parseInt(a.dataset.created || 0);
+            return createdB - createdA;
         }
     });
+
+    // Re-append sorted rows to container
+    rows.forEach(row => container.appendChild(row));
+
+    // Update job counter badge
+    const countEl = document.getElementById('filtered-jobs-count');
+    if (countEl) countEl.innerText = visibleCount;
+
+    // Toggle empty state message
+    const noMsg = document.getElementById('no-filtered-jobs-msg');
+    if (noMsg) {
+        if (visibleCount === 0 && rows.length > 0) {
+            noMsg.classList.remove('d-none');
+        } else {
+            noMsg.classList.add('d-none');
+        }
+    }
+
+    // Sync filter state with URL parameters (without refreshing page)
+    updateURLParams({
+        search: searchVal,
+        sort: sortVal,
+        sector: sectorVal,
+        programme: programmeVal,
+        jobtype: jobTypeVal
+    });
+}
 
     // Re-append sorted rows to container
     rows.forEach(row => container.appendChild(row));
