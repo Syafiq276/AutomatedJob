@@ -11,19 +11,20 @@ Muhammad Syafiq Norhazwan Bin Nor Ramzi
 fathazwan14@gmail.com  
 +60-1157217903  
 
-Dear Hiring Manager,
+Dear Hiring Team,
 
-I am writing to express my strong interest in the Software Developer position at Spruson & Ferguson. As an Information Technology graduate from UiTM with a CGPA of 3.51, I am eager to support your digital strategy and collaborate with your cross-functional teams in Singapore and Australia. 
+I am writing to express my strong interest in the Software Developer position at Spruson & Ferguson. As a recent Bachelor of IT (Big Data) graduate from UiTM Arau with a CGPA of 3.51, I am eager to support your firm’s digital strategy and collaborate with your cross-functional teams in Singapore and Australia. 
 
-Your requirement for application development and DevOps automation aligns perfectly with my hands-on technical background. I recently developed "ClockWise," a solo, full-stack HRMS application built using Laravel and MySQL, which I successfully containerized with Docker and deployed on Render. This project sharpened my skills in automating complex processes like payroll and attendance, writing optimized SQL queries, and managing deployments. 
+My technical background directly aligns with your requirements for application development and database optimization. For my solo project, ClockWise, I developed a full-stack HRMS using Laravel, PHP, and RESTful APIs, where I successfully automated complex payroll and attendance workflows. Furthermore, my academic background in Big Data has equipped me with advanced SQL skills. I am highly proficient in writing optimized queries, managing databases, and structuring efficient data pipelines—skills I am ready to apply to your database management and automation needs.
 
-Additionally, my experience extends to modern frontend frameworks and API integrations. During my internship at Goolee Sdn Bhd, I maintained and upgraded web applications, while my project "JomOrder" utilized React, JavaScript, and RESTful APIs to deliver a seamless user experience. I am highly proficient in Git version control and writing clean, maintainable code, making me well-equipped to troubleshoot and upgrade Spruson & Ferguson’s existing systems.
+Additionally, my hands-on experience with modern frontend technologies like React and JavaScript, alongside DevOps tools like Git and Docker, ensures I can seamlessly maintain, upgrade, and troubleshoot your existing applications. Having recently completed an internship where I built a Trainer Development Management System, I understand the importance of delivering reliable, production-ready code on tight timelines. 
 
-I am immediately available to start and would love the opportunity to discuss how my web development and automation skills can add value to your team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. 
+I am available to start immediately and would love the opportunity to discuss how my web development and database skills can add value to Spruson & Ferguson. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. 
 
 Thank you for your time and consideration.
 
-Sincerely,  
+Sincerely,
+
 Muhammad Syafiq Norhazwan
 
 ---
