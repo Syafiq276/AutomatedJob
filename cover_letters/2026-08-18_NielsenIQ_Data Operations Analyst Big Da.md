@@ -11,15 +11,19 @@ Muhammad Syafiq Norhazwan Bin Nor Ramzi
 fathazwan14@gmail.com  
 +60-1157217903  
 
-Dear Hiring Team at NielsenIQ,
+Hiring Manager,  
+NielsenIQ  
+Subang Jaya, Selangor, Malaysia  
 
-As an IT graduate specializing in Big Data, I am thrilled to apply for the Data Operations Analyst (Big Data Management Experience) position in Subang Jaya. I have long admired NielsenIQ’s reputation as the global leader in consumer intelligence. I am eager to leverage my analytical skills to help deliver the "Full View" by ensuring seamless data operations and sample management.
+Dear Hiring Team,
 
-My academic background in Big Data (CGPA 3.51) from UiTM Arau, combined with hands-on development experience, aligns perfectly with your need for technical precision and automation. In my "ClockWise" HRMS project, I built a robust system using Laravel and MySQL that automated complex payroll and attendance processes. This experience sharpened my ability to design efficient data workflows, write optimized SQL queries, and manage relational databases. Furthermore, my experience with Python and API integration allows me to build automation scripts that reduce manual errors and streamline data ingestion—skills that will directly support your team’s sample management and ad-hoc data processing needs.
+I am writing to express my strong interest in the Data Operations Analyst (Big Data Management Experience) position at NielsenIQ. As an IT graduate specializing in Big Data from UiTM Arau (CGPA 3.51), I have long admired NIQ’s reputation as the world’s leading consumer intelligence company. I am eager to leverage my technical foundation in data management and automation to help deliver the "Full View" of consumer behavior.
 
-With my strong foundation in data structures, SQL, and process automation, I am confident in my ability to quickly adapt to NielsenIQ’s state-of-the-art platforms and contribute to your operational efficiency. I am available to start immediately.
+My academic and hands-on project background directly aligns with NIQ’s need for robust data operations. Through my major in Big Data, I developed a strong command of SQL for complex database querying and Python for data manipulation. Additionally, my practical software engineering experience—such as developing "ClockWise," a full-stack HRMS that automated complex payroll and attendance calculations—demonstrates my ability to design efficient, automated workflows. I am highly comfortable managing large datasets, ensuring data integrity, and optimizing processes to support critical business decisions.
 
-I welcome the opportunity to discuss how my technical skills and enthusiasm for data-driven insights can add value to your team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
+With my background in data systems and a proven track record of building reliable, database-driven applications, I am confident in my ability to quickly contribute to your Sample Management processes. I am available to start immediately.
+
+I welcome the opportunity to discuss how my technical skills and passion for data operations can support NielsenIQ’s mission. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview. Thank you for your time and consideration.
 
 Sincerely,  
 

@@ -8,21 +8,19 @@
 ---
 
 Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com  
-+60-1157217903  
+fathazwan14@gmail.com | +60-1157217903  
 
-Dear Hiring Team,
+Dear Hiring Team at Experian Asia Pacific,
 
-I am writing to express my strong interest in the Software Engineer I position at Experian Asia Pacific. As an IT graduate from UiTM Arau with a CGPA of 3.51, I have long admired Experian’s global leadership in data and technology. I am eager to contribute my technical skills to a company recognized globally for its inclusive culture and technological innovation.
+I am writing to express my strong interest in the Software Engineer I position at Experian in Cyberjaya. As a recent Bachelor of IT (Big Data) graduate from UiTM with a 3.51 CGPA, I have long admired Experian’s global leadership in unlocking the power of data to create opportunities. I am eager to contribute my technical skills to a multi-award-winning workplace that champions innovation and a people-first culture.
 
-My background in full-stack development aligns closely with your team's needs. I have hands-on experience with modern web technologies, including JavaScript, React, SQL, Git, and Docker. For my project *ClockWise*, a solo-developed HRMS, I built and deployed a scalable application on Render, optimizing database queries with MySQL and automating complex payroll workflows. Additionally, during my internship at Goolee Sdn Bhd, I engineered a Trainer Development Management System using PHP, refining my ability to deliver clean, production-ready code in fast-paced environments.
+My academic and hands-on project background directly aligns with Experian’s modern technology stack. Through building "ClockWise," a full-stack HRMS, I gained end-to-end deployment experience using Docker and automated workflows. Additionally, my development of "JomOrder," a Laravel-based POS system, sharpened my proficiency in JavaScript, React, and SQL database management. My internship at Goolee Sdn Bhd further solidified my ability to collaborate on live PHP-based systems and use Git for version control. These experiences have equipped me to write clean, scalable code and seamlessly integrate into your engineering workflows.
 
-With my strong foundation in software architecture, containerization using Docker, and modern frontend frameworks like React, I am confident in my ability to quickly integrate into Experian’s engineering workflows. I am highly adaptable, eager to learn, and available to start immediately.
+With a strong foundation in both software development and data concepts, I am excited about the opportunity to help Experian build robust, data-driven technology solutions. I am available to start immediately and would welcome the opportunity for an interview to discuss how my skills can add value to your team. 
 
-I welcome the opportunity to discuss how my technical skills and passion for data-driven solutions can add value to your team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
+Please feel free to contact me at +60-1157217903 or via email at fathazwan14@gmail.com. Thank you for your time and consideration.
 
-Sincerely,
-
+Sincerely,  
 Muhammad Syafiq Norhazwan
 
 ---

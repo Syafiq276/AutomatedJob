@@ -8,19 +8,21 @@
 ---
 
 Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com | +60-1157217903 | Petaling Jaya, Selangor, Malaysia  
+fathazwan14@gmail.com | +60-1157217903  
 
-Dear Hiring Team,
+Dear Hiring Team at AstraZeneca,
 
-I am writing to express my strong interest in the GFS Digital Transformation Graduate (Contract) position at AstraZeneca. With a Bachelor of IT (Hons.) in Big Data from UiTM and a passion for leveraging technology to optimize global business operations, I am excited to contribute to AstraZeneca’s digital agenda. 
+I am writing to express my strong interest in the GFS Digital Transformation Graduate (Contract) position. AstraZeneca’s commitment to leveraging digital innovation to transform global finance operations deeply resonates with my background in Information Technology and my passion for driving efficiency through technology. 
 
-My technical background aligns directly with your need for digital enablement and process innovation. For my project *ClockWise*, I independently developed a full-stack HRMS using Laravel and MySQL, automating complex payroll and attendance workflows. This experience honed my ability to translate business needs into efficient digital solutions. Additionally, during my internship at Goolee Sdn Bhd, I managed the end-to-end development of a Trainer Management System using PHP and Git, collaborating with stakeholders to deliver a system that streamlined administrative operations. 
+As an IT graduate from UiTM Arau (CGPA 3.51), I bring hands-on experience in software development, automation, and version control (Git) that aligns directly with your digital enablement goals. For my project, ClockWise, I independently engineered a full-stack Human Resource Management System using Laravel and MySQL. By designing automated payroll and attendance tracking features, I successfully streamlined complex administrative workflows—a practical experience in process optimization that I am eager to apply to AstraZeneca's global finance initiatives. 
 
-These projects have equipped me with strong analytical skills, Git version control expertise, and a mindset geared toward automation. I am eager to bring this technical foundation to AstraZeneca, where I can support your cross-functional initiatives, assist in building compelling business cases, and help drive global finance innovation.
+Furthermore, during my internship at Goolee Sdn Bhd, I developed a Trainer Development Management System and collaborated across functional areas to align technical solutions with organizational needs. This experience sharpened my stakeholder communication and project coordination skills, preparing me to effectively support your team's strategic program management and cross-functional digital agenda. 
 
-As a proactive fast learner available to start immediately, I would welcome the opportunity to discuss how my skills can support the GFS Digital Team. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
+I am highly adaptable, eager to learn, and available to start immediately. I would welcome the opportunity to discuss how my technical skills and proactive mindset can contribute to the GFS Digital Team's success. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview.
 
-Warm regards,
+Thank you for your time and consideration.
+
+Sincerely,  
 
 Muhammad Syafiq Norhazwan
 
