@@ -3,27 +3,19 @@
 > **Match Score:** 85.0%  
 > **Source:** LinkedIn  
 > **Applied:** 19 August 2026  
-> **Job URL:** https://my.linkedin.com/jobs/view/industrial-trainee-global-logistics-at-infineon-technologies-4437190197
+> **Job URL:** https://my.linkedin.com/jobs/view/industrial-trainee-global-logistics-at-infineon-technologies-4437193186
 
 ---
 
-Muhammad Syafiq Norhazwan Bin Nor Ramzi
-fathazwan14@gmail.com
-+60-1157217903
+Dear Hiring Team,
 
-Hiring Manager  
-Infineon Technologies  
-Penang, Malaysia  
+I am writing to express my strong interest in the Industrial Trainee - Global Logistics position at Infineon Technologies in Penang. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a solid foundation in software development and automation, I am eager to contribute to Infineon's world-class supply chain and compliance operations.
 
-Dear Hiring Manager,
+Your requirement for meticulous reporting, auditing, and cross-functional coordination aligns perfectly with my technical analytical skills. During my academic career, I built "ClockWise," a solo full-stack Human Resource Management System using Laravel, where I successfully automated complex payroll processing and attendance tracking. This project honed my ability to handle large datasets, validate complex inputs, and ensure absolute data integrity—skills directly transferable to validating inbound permits against shipping invoices and processing freight accruals at Infineon. 
 
-I am writing to express my strong interest in the Industrial Trainee - Global Logistics position at Infineon Technologies. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a solid foundation in automation and data validation, I am eager to contribute to Infineon’s world-class supply chain and compliance operations in Penang.
+Additionally, my experience in building "JomOrder," a Laravel-based POS system, and my internship at Goolee Sdn Bhd have made me highly proficient in using Git for version control and deploying structured workflows. Coupled with my knowledge of Python and data analysis, I am well-equipped to automate manual compliance reporting tasks, reduce processing times, and collaborate seamlessly with your Finance and engineering teams to track sample requests.
 
-This role’s focus on customs compliance auditing and freight bill verification perfectly aligns with my analytical background. During my internship at Goolee Sdn Bhd and through developing my Human Resource Management System (HRMS) project, ClockWise, I built robust backend systems using PHP and MySQL to automate complex data processing. I can directly apply these data-handling skills to validate inbound permits against shipping invoices swiftly and accurately, eliminating manual errors in your reporting.
-
-Furthermore, my experience in automating workflows and managing version control with Git equips me to streamline your end-to-end engineering sample coordination. I am highly comfortable writing Python scripts to process large datasets, which will allow me to generate precise monthly freight accrual reports and support your finance team within tight deadlines. 
-
-I am available to start immediately and would welcome the opportunity to discuss how my technical skills in automation and data analysis can add value to your logistics team. Please feel free to contact me at +60-1157217903 or fathazwan14@gmail.com to arrange an interview. Thank you for your time and consideration.
+I am available to start immediately and would welcome the opportunity to discuss how my technical skills and proactive mindset can add value to your logistics team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
 
 Sincerely,
 

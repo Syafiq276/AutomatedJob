@@ -10,7 +10,6 @@
 Muhammad Syafiq Norhazwan Bin Nor Ramzi  
 fathazwan14@gmail.com  
 +60-1157217903  
-Petaling Jaya, Selangor  
 
 Hiring Manager  
 Lenovo  
@@ -18,15 +17,13 @@ Petaling Jaya, Selangor, Malaysia
 
 Dear Hiring Manager,
 
-I am writing to express my strong interest in the Junior Full Stack AI Solution Engineer position at Lenovo. As an IT graduate from UiTM with a CGPA of 3.51, I have long admired Lenovo’s commitment to "Smarter Technology for All." I am eager to bring my full-stack development skills and passion for AI-driven efficiency to a global powerhouse that prides itself on delivering "WOW" experiences to its customers.
+I am writing to express my strong interest in the Junior Full Stack AI Solution Engineer position at Lenovo. As an IT graduate from UiTM with a CGPA of 3.51 and a passion for building robust applications, I am deeply inspired by Lenovo’s commitment to delivering "Smarter Technology for All." I am eager to bring my full-stack development skills to a global powerhouse that constantly WOWs its customers.
 
-During my studies and internship at Goolee Sdn Bhd, I specialized in building robust, end-to-end web applications. For my project, JomOrder, I developed a Laravel-based F&B ordering system utilizing AI-augmented development workflows to optimize code efficiency. Additionally, I solely built and deployed ClockWise, a full-stack HRMS on Render, which automated payroll and attendance tracking. Through these projects, I mastered PHP, JavaScript, MySQL, and RESTful APIs, while gaining valuable experience in deployment, containerization with Docker, and version control via Git. 
+During my studies and internship, I have actively built and deployed full-stack solutions. For my project, ClockWise, I acted as the sole developer to build and deploy a comprehensive HRMS on Render using Laravel and MySQL, which successfully automated payroll and attendance tracking. Additionally, through JomOrder, a F&B POS system, I integrated AI-augmented development workflows to optimize the codebase. These projects, combined with my internship experience at Goolee Sdn Bhd, have equipped me with strong backend capabilities in PHP, Laravel, and JavaScript, alongside practical knowledge of APIs, Git, and Docker. 
 
-My academic background in Big Data, combined with hands-on full-stack experience, aligns perfectly with Lenovo's vision of deploying AI-ready and AI-optimized solutions. I am a proactive problem solver who takes full ownership of my work and thrives in fast-paced environments.
+I am highly adaptable, eager to work with Python and TypeScript, and excited to contribute to Lenovo’s AI-enabled and AI-ready infrastructure. With an immediate availability status, I am ready to hit the ground running and support your team in driving world-changing innovation.
 
-I am available to start immediately and would welcome the opportunity to discuss how my technical skills and drive can contribute to Lenovo’s engineering team. Please feel free to contact me at +60-1157217903 or fathazwan14@gmail.com to arrange an interview.
-
-Thank you for your time and consideration.
+I welcome the opportunity to discuss how my technical skills and proactive mindset align with Lenovo's vision. Please feel free to contact me at +60-1157217903 or fathazwan14@gmail.com to schedule an interview. Thank you for your time and consideration.
 
 Sincerely,  
 
