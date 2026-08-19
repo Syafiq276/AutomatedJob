@@ -9,13 +9,13 @@
 
 Dear Hiring Team,
 
-I am writing to express my strong interest in the Packaging Engineering position at Sandisk in Batu Kawan. As a recent IT honors graduate from UiTM Arau with a CGPA of 3.51, I am eager to bring my technical expertise in automation, database management, and system deployment to Sandisk's world-class manufacturing facility.
+I am writing to express my strong interest in the Packaging Engineering position at SanDisk in Batu Kawan. As a fresh graduate with a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51), I have long admired SanDisk’s industry-leading memory technologies. I am eager to apply my technical background to optimize packaging engineering processes at a global manufacturing powerhouse.
 
-Although my background is in Information Technology, my skills align closely with the data-driven and automated needs of modern packaging engineering. I have a solid foundation in SQL, Git version control, and Python, which are essential for optimizing engineering workflows and analyzing production data. During my studies, I independently built "ClockWise," a full-stack HRMS deployed on Render that successfully automated payroll and attendance tracking. This project sharpened my ability to design efficient, automated pipelines and manage deployments. Additionally, my internship at Goolee Sdn Bhd, where I developed a Trainer Development Management System, proved my ability to quickly adapt to new environments and deliver production-ready software solutions.
+Although my degree is in IT, my technical toolkit directly aligns with the modern, data-driven needs of packaging engineering. I have strong hands-on experience in automation, deployment, SQL, Git, and Python. In my "ClockWise" HRMS project, I built a full-stack system deployed on Render that automated payroll and attendance tracking, demonstrating my ability to streamline complex workflows. Additionally, my internship at Goolee Sdn Bhd sharpened my ability to manage databases and deploy systems that improve operational efficiency. 
 
-I am highly motivated to apply my analytical mindset, programming skills, and passion for innovation to support Sandisk’s industry-leading memory technology manufacturing. With my immediate availability, I am ready to contribute to your team's success from day one.
+I am highly adaptable, analytical, and ready to leverage my skills in database management and automation to support SanDisk's packaging development and production pipelines. I am available to start immediately and would welcome the opportunity to discuss how my technology background can bring a fresh, analytical perspective to your engineering team. 
 
-I welcome the opportunity to discuss how my technical skills can add value to Sandisk. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
+Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
 
 Sincerely,
 
