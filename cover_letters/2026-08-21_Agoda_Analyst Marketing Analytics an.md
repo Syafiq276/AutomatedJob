@@ -1,27 +1,27 @@
-# Cover Letter — Workforce Planning & Resources Optimization Analyst (WFM) at Shangri-La Group
+# Cover Letter — Analyst, Marketing Analytics and Strategy (Bangkok Based, relocation provided) at Agoda
 
-> **Match Score:** 100.0%  
+> **Match Score:** 80.0%  
 > **Source:** LinkedIn  
 > **Applied:** 21 August 2026  
-> **Job URL:** https://my.linkedin.com/jobs/view/workforce-planning-resources-optimization-analyst-wfm-at-shangri-la-group-4455612748
+> **Job URL:** https://my.linkedin.com/jobs/view/analyst-marketing-analytics-and-strategy-bangkok-based-relocation-provided-at-agoda-4410549389
 
 ---
 
 21 August 2026
 
 Hiring Manager
-Shangri-La Group
-WP. Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia
+Agoda
+Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia
 
 Dear Hiring Manager,
 
-I am writing to express my keen interest in the Workforce Planning & Resources Optimization Analyst (WFM) position at Shangri-La Group. As a fresh IT graduate from UiTM Arau with a CGPA of 3.51 specialising in Big Data, I bring hands-on production experience in SQL — skills that align directly with what your team needs.
+I am writing to express my keen interest in the Analyst, Marketing Analytics and Strategy (Bangkok Based, relocation provided) position at Agoda. As a fresh IT graduate from UiTM Arau with a CGPA of 3.51 specialising in Big Data, I bring hands-on production experience in SQL, Git, Python — skills that align directly with what your team needs.
 
 During my time as a solo developer on ClockWise, an end-to-end Human Resource Management System built on the Laravel ecosystem, I engineered a complete payroll automation platform and successfully deployed it to a live Render cloud environment. This project sharpened my ability to architect clean RESTful APIs, design normalised relational databases in MySQL, and manage a full software development lifecycle independently — from requirements through to deployment.
 
 Additionally, my internship at Goolee Sdn Bhd gave me real-world exposure to translating unstructured organisational data into structured digital systems, building an internal Trainer Development Management System that is actively used by the company today.
 
-I am immediately available and genuinely excited about the opportunity to contribute to Shangri-La Group. I would welcome the chance to discuss how my technical background and work ethic can support your team's goals.
+I am immediately available and genuinely excited about the opportunity to contribute to Agoda. I would welcome the chance to discuss how my technical background and work ethic can support your team's goals.
 
 Thank you for your time and consideration.
 

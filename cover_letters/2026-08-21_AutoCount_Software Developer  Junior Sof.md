@@ -10,7 +10,6 @@
 Muhammad Syafiq Norhazwan Bin Nor Ramzi  
 fathazwan14@gmail.com  
 +60-1157217903  
-September 14, 2023  
 
 Hiring Manager  
 AutoCount  
@@ -18,16 +17,13 @@ Pelabuhan Klang, Selangor, Malaysia
 
 Dear Hiring Manager,
 
-I am writing to express my strong interest in the Software Developer / Junior Software Developer position at AutoCount. As an IT graduate from UiTM Arau (CGPA 3.51) specializing in Big Data and modern web technologies, I have long admired AutoCount’s leadership in business software solutions. I am eager to contribute my full-stack development skills to your growing tech team.
+I am writing to express my strong interest in the Software Developer / Junior Software Developer position at AutoCount. As an IT graduate from UiTM Arau with a CGPA of 3.51 and hands-on experience in full-stack web development, I am eager to contribute to AutoCount’s reputation for delivering robust business software solutions.
 
-My technical background directly aligns with AutoCount’s requirements. I have hands-on experience building robust, database-driven applications using PHP, JavaScript, and SQL within MVC frameworks. For my project *ClockWise*, a solo-developed HRMS deployed on Render, I designed the entire database schema, implemented RESTful APIs, and developed automated modules for payroll and attendance. Additionally, during my internship at Goolee Sdn Bhd, I successfully developed and maintained a Trainer Development Management System. These experiences have sharpened my ability to write clean code, troubleshoot complex issues, and document technical workflows—skills that will allow me to immediately support your team in developing and optimizing software products.
+My technical background aligns directly with your development needs. I have a strong foundation in MVC architecture, PHP, JavaScript, and SQL databases. For my project, ClockWise, I independently developed a full-stack HRMS using Laravel, where I designed the database structure and integrated RESTful APIs to automate payroll and attendance tracking. Additionally, during my internship at Goolee Sdn Bhd, I maintained and optimized PHP-based systems, ensuring strong functionality and troubleshooting code to improve performance. These experiences have prepared me to write clean code, prepare technical documentation, and collaborate effectively to resolve software issues.
 
-I am highly adaptable, collaborative, and ready to start immediately. I would welcome the opportunity to discuss how my technical skills and passion for software engineering can add value to AutoCount. Please feel free to contact me at +60-1157217903 or fathazwan14@gmail.com to arrange an interview. 
+I am versatile, quick to learn, and ready to start immediately. I would welcome the opportunity to discuss how my skills in backend development and database design can support AutoCount's growing tech team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
 
-Thank you for your time and consideration.
-
-Sincerely,
-
+Sincerely,  
 Muhammad Syafiq Norhazwan
 
 ---
