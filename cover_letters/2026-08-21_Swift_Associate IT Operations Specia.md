@@ -13,13 +13,11 @@ fathazwan14@gmail.com
 
 Dear Hiring Team at Swift,
 
-I am writing to express my strong interest in the Associate IT Operations Specialist position at Swift. As an IT graduate from UiTM Arau with a CGPA of 3.51, I have long admired Swift’s global reputation for driving secure, high-precision financial messaging. I am eager to bring my technical expertise and passion for system efficiency to your Kuala Lumpur operations.
+I am writing to express my strong interest in the Associate IT Operations Specialist position at Swift. As an IT graduate from UiTM Arau with a CGPA of 3.51, I have long admired Swift’s global reputation for driving secure, high-precision financial messaging. I am eager to bring my technical foundation and passion for automation to support your mission-critical operations in Kuala Lumpur.
 
-My background aligns closely with the operational excellence Swift demands. During my academic and project work, I have focused heavily on automation and system reliability. For instance, I independently developed ClockWise, a full-stack Human Resource Management System (HRMS) deployed on Render, where I automated complex payroll and attendance tracking. Additionally, my internship at Goolee Sdn Bhd involved building a Trainer Development Management System using PHP, which sharpened my ability to deploy, troubleshoot, and maintain secure, web-based applications. 
+My academic and practical background aligns closely with the analytical and automated demands of this role. For my project *ClockWise*, a solo-developed HRMS deployed on Render, I successfully automated complex payroll and attendance calculations. Additionally, during my internship at Goolee Sdn Bhd, I managed the end-to-end development of a Trainer Development Management System. These experiences sharpened my skills in PHP, MySQL, Git, and Docker, enabling me to build, deploy, and troubleshoot robust systems while ensuring operational reliability and data integrity.
 
-With a strong foundation in PHP, Laravel, MySQL, Git, and Docker, I am highly comfortable managing databases, monitoring application performance, and streamlining workflows through automation. I thrive in fast-paced environments that require diligent testing and exhaustively high standards—qualities that are essential for maintaining the trust Swift has built over the last five decades. 
-
-I am available to start immediately and would welcome the opportunity to discuss how my technical skills can support your IT operations team. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. 
+I am highly adaptable, detail-oriented, and available to start immediately. I would welcome the opportunity to discuss how my technical skills and proactive mindset can contribute to the seamless execution of Swift’s global operations. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. 
 
 Thank you for your time and consideration.
 

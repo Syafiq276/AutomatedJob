@@ -7,27 +7,21 @@
 
 ---
 
-Muhammad Syafiq Norhazwan Bin Nor Ramzi
-fathazwan14@gmail.com
-+60-1157217903
-Perak, Malaysia
-
-Hiring Team  
-Exact  
-Ipoh, Perak  
+Muhammad Syafiq Norhazwan Bin Nor Ramzi  
+fathazwan14@gmail.com  
++60-1157217903  
 
 Dear Hiring Team at Exact,
 
-I am writing to express my strong interest in the PHP Software Engineer position at your newly launched Ipoh hub. As an ambitious IT graduate from UiTM Arau (CGPA 3.51) specializing in modern PHP development, I am eager to take ownership of delivering high-quality, scalable code to support Exact's rapid growth in Perak. 
+I am writing to express my strong interest in the PHP Software Engineer position at your newly launched Ipoh hub. Having graduated with a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51), I am eager to bring my hands-on experience in full-stack PHP development, modern JavaScript frameworks, and containerization to Exact's collaborative SCRUM team.
 
-My technical background aligns directly with your modern stack. I have built production-ready applications utilizing PHP, Laravel, and MySQL, while containerizing environments with Docker and integrating React frontends. For my project *ClockWise*, a solo-developed HRMS deployed on Render, I engineered the entire database schema and designed RESTful APIs to automate complex payroll and attendance workflows. Additionally, during my internship at Goolee Sdn Bhd, I developed a Trainer Development Management System using PHP, proving my ability to collaborate with teams, troubleshoot system bugs, and deliver stable software under agile methodologies. 
+Despite being a fresh graduate, I have built a solid foundation in developing high-performance, scalable applications that align with your tech stack. For my project *ClockWise*, a solo-developed HRMS built with Laravel and deployed via Docker, I took full ownership of the development lifecycle, automating complex payroll and attendance workflows. Additionally, during my internship at Goolee Sdn Bhd, I engineered a Trainer Development Management System using PHP, ensuring code reliability and seamless database performance. I am also highly comfortable with front-end technologies like React and TypeScript, allowing me to contribute effectively to both your backend and frontend initiatives. 
 
-I am highly adaptable, comfortable working with PHP frameworks, and ready to quickly master Symfony to contribute to your SCRUM team's success. As an Ipoh-based candidate, I am available to start immediately and fully commit to this on-site role. 
+I am highly motivated to take ownership of code quality, troubleshoot system stability, and grow alongside Exact’s expanding engineering team in Ipoh. I am available to start immediately and would welcome the opportunity to discuss how my technical skills can support your business growth. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903.
 
-I would welcome the opportunity to discuss how my hands-on project experience and passion for clean code can add value to Exact. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview. Thank you for your time and consideration.
+Thank you for your time and consideration.
 
-Sincerely,
-
+Sincerely,  
 Muhammad Syafiq Norhazwan
 
 ---

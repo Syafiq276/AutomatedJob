@@ -17,11 +17,13 @@ Cyberjaya, Selangor, Malaysia
 
 Dear Hiring Manager,
 
-I am writing to express my strong interest in the MS Engineer (L1) (English & Japanese Bilingual) position at NTT DATA, Inc. With a Bachelor of IT (Hons.) in Big Data from UiTM (CGPA 3.51) and a solid foundation in system monitoring and troubleshooting, I am eager to contribute to your 24/7 technical support operations in Cyberjaya while embracing your culture of diversity and technical excellence.
+I am writing to express my strong interest in the MS Engineer (L1) (English & Japanese Bilingual) position at NTT DATA, Inc. Having graduated with a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51), I am eager to bring my technical troubleshooting capabilities and dedication to your renowned 24/7 support operations in Cyberjaya.
 
-My academic and practical background has equipped me with the rigorous analytical skills needed to monitor network and server performance effectively. Through developing complex, full-stack applications like ClockWise (an HRMS built with Laravel and MySQL) and deploying them on cloud platforms, I have gained hands-on experience in diagnosing software anomalies, managing databases, and ensuring system reliability. Additionally, my internship at Goolee Sdn Bhd, where I developed and maintained a PHP-based management system, sharpened my ability to troubleshoot end-user hardware and software issues under tight deadlines. This technical adaptability, combined with my disciplined work ethic, prepares me well for the demanding 12-hour rotational shifts required to maintain NTT DATA's seamless 24/7 coverage.
+My academic and practical background has equipped me with a robust understanding of server performance, databases, and system architectures. Through developing complex full-stack applications like ClockWise (an automated HRMS deployed on Render) and JomOrder, I have honed my skills in monitoring environments, debugging software issues, and managing MySQL databases. Additionally, my internship at Goolee Sdn Bhd, where I developed a Trainer Development Management System using PHP, sharpened my ability to diagnose technical issues under pressure and deliver efficient solutions. 
 
-I am highly motivated to bring my technical troubleshooting skills and bilingual communication capabilities to your esteemed team. I am available to start immediately and would welcome the opportunity to discuss how my background aligns with your operational needs. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview.
+I am highly adaptable, detail-oriented, and fully prepared to commit to the 12-hour rotational shift schedule required to maintain NTT DATA’s exceptional service standards. Combined with my strong communication skills, I am confident in my ability to support your diverse global clientele and contribute to your team's technical excellence from day one.
+
+I am available for an immediate start. I welcome the opportunity to discuss how my technical skills and enthusiasm align with your team's needs. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview.
 
 Thank you for your time and consideration.
 

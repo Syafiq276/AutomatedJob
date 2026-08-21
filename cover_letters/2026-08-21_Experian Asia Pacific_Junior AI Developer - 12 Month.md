@@ -8,19 +8,20 @@
 ---
 
 Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com | +60-1157217903  
+fathazwan14@gmail.com  
++60-1157217903  
 
 Dear Hiring Team at Experian Asia Pacific,
 
-I am writing to express my strong interest in the Junior AI Developer (12 Months Contract) position at Experian Asia Pacific. As an IT graduate specializing in Big Data from UiTM, I have long admired how Experian leverages advanced analytics and technology to unlock the power of data globally. I am eager to contribute my backend development, automation, and modern framework skills to your innovative team in Mid Valley City.
+I am writing to express my strong interest in the Junior AI Developer (12-Month Contract) position at Experian Asia Pacific. As an IT graduate from UiTM Arau (CGPA 3.51) specializing in Big Data, I have long admired Experian’s global leadership in using advanced analytics and technology to unlock the power of data. I am eager to contribute my backend development and automation skills to your innovative team in Mid Valley City.
 
-My academic background and hands-on project experience align closely with your technical environment. For my project *JomOrder*, a robust F&B POS system, I actively utilized AI-augmented development workflows to accelerate feature delivery and optimize backend logic. Additionally, I built *ClockWise*, a full-stack HRMS application deployed via Docker, where I automated complex payroll and attendance calculations. Through these projects and my internship at Goolee Sdn Bhd, I have developed a strong command of Git, Docker, Python, React, and building efficient backend systems. 
+My academic and practical background aligns closely with Experian's tech stack. In my project, JomOrder, I integrated AI-augmented development workflows to build an efficient F&B ordering system. Additionally, I developed ClockWise, a full-stack HRMS application deployed via Docker, where I built automated payroll and attendance pipelines. These projects sharpened my expertise in backend development, version control with Git, containerization with Docker, and React. Combined with my foundation in data analytics, I am highly prepared to support Experian's data-driven AI initiatives.
 
-I am highly adaptable, quick to master new technologies, and available to start immediately. I would welcome the opportunity to discuss how my technical skills and passion for data-driven automation can support Experian’s mission. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview.
+With my internship experience at Goolee Sdn Bhd and my solid technical foundation, I am ready to adapt quickly, collaborate effectively, and deliver immediate value. I am available to start immediately. 
 
-Thank you for your time and consideration.
+I would welcome the opportunity to discuss how my technical skills and passion for data technology can support your team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
 
-Sincerely,
+Sincerely,  
 
 Muhammad Syafiq Norhazwan
 

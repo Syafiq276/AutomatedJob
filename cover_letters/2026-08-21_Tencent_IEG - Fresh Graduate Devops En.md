@@ -7,17 +7,26 @@
 
 ---
 
-Dear Hiring Team,
+Muhammad Syafiq Norhazwan Bin Nor Ramzi  
+fathazwan14@gmail.com  
++60-1157217903  
+Immediate Availability  
 
-I am writing to express my strong interest in the Fresh Graduate DevOps Engineer position within Tencent’s Interactive Entertainment Group (IEG). As an IT graduate from UiTM Arau with a CGPA of 3.51, I have long admired Tencent’s commitment to "Tech for Good" and its global leadership in digital entertainment. I am eager to bring my technical foundation and proactive mindset to support IEG's high-performance operations.
+Hiring Manager  
+Tencent (Interactive Entertainment Group)  
+WP. Kuala Lumpur, Malaysia  
 
-My academic and hands-on project experience aligns closely with the technical demands of this role. In developing my HRMS application, ClockWise, I managed the entire lifecycle from database design using MySQL to deploying the final application on Render. This project sharpened my skills in Git version control, environment configuration, and automated workflows. Additionally, through my internship at Goolee Sdn Bhd and building the JomOrder POS system, I gained deep experience in managing databases, writing clean code, and utilizing Python and SQL to troubleshoot and optimize system performance. These experiences have given me a strong grasp of infrastructure, deployment pipelines, and the collaborative agility required in a DevOps environment.
+Dear Hiring Manager,
 
-I am highly adaptable, eager to learn Tencent’s specific cloud technologies, and available to start immediately. I would welcome the opportunity to discuss how my technical skills and enthusiasm can contribute to IEG’s engineering team. Please feel free to contact me at +60-1157217903 or via email at fathazwan14@gmail.com.
+I am writing to express my strong interest in the Fresh Graduate DevOps Engineer position within Tencent’s Interactive Entertainment Group (IEG). As an IT graduate from UiTM Arau (CGPA 3.51) specializing in Big Data, I have long admired Tencent’s commitment to "Tech for Good." I am eager to bring my technical foundation and proactive mindset to support IEG’s high-performance operations.
+
+My academic and project background aligns closely with the core requirements of this role. Through developing my HRMS application, ClockWise, I gained hands-on experience in the complete deployment lifecycle, successfully hosting the application on Render and managing database structures using SQL. Additionally, my development workflow is anchored in robust version control practices using Git and containerization concepts. My background in Big Data has also equipped me with strong Python scripting capabilities, enabling me to write clean, efficient code to automate tasks and analyze system performance.
+
+I am highly adaptable, collaborative, and ready to contribute immediately to Tencent’s fast-paced, innovative environment. I welcome the opportunity to discuss how my technical skills and passion for automation can add value to your DevOps team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to arrange an interview. 
 
 Thank you for your time and consideration.
 
-Sincerely,
+Sincerely,  
 
 Muhammad Syafiq Norhazwan
 

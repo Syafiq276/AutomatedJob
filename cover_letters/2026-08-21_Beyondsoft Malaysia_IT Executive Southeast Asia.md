@@ -11,22 +11,17 @@ Muhammad Syafiq Norhazwan Bin Nor Ramzi
 fathazwan14@gmail.com  
 +60-1157217903  
 
-Hiring Manager  
-Beyondsoft Malaysia  
-KL Eco City, Kuala Lumpur  
+Dear Hiring Team,
 
-Dear Hiring Manager,
+I am writing to express my strong interest in the IT Executive, Southeast Asia position at Beyondsoft Malaysia. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a robust foundation in full-stack development and system administration, I am eager to support your regional IT operations and security compliance from your KL Eco City office.
 
-I am writing to express my strong interest in the IT Executive, Southeast Asia position at Beyondsoft Malaysia. Having recently graduated with a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51), I am eager to bring my technical troubleshooting skills, hands-on system administration experience, and proactive problem-solving mindset to support your regional IT operations.
+During my internship at Goolee Sdn Bhd, I managed end-to-end system development, which honed my skills in troubleshooting technical issues, managing user access, and maintaining secure digital environments. Furthermore, my hands-on experience building complex systems, such as ClockWise (a solo-developed HRMS deployed on Render) and JomOrder, has equipped me with a deep understanding of infrastructure deployment, database management (MySQL), and API integrations. These projects demonstrate my ability to independently diagnose system errors, manage technical assets, and ensure operational efficiency—skills that directly align with Beyondsoft's need for reliable, day-to-day IT infrastructure and user support.
 
-During my internship at Goolee Sdn Bhd, I successfully managed the deployment and administration of the Trainer Development Management System. This experience sharpened my ability to support users, manage system access, troubleshoot technical issues, and coordinate with stakeholders—skills that directly align with Beyondsoft’s need for reliable day-to-day IT operations and user support. Furthermore, my academic and personal projects, such as developing the "ClockWise" HRMS, have given me a deep understanding of database management (MySQL), security protocols, and system deployment using Docker and Git, ensuring I can easily adapt to your IT infrastructure and security compliance standards.
-
-I am highly adaptable, comfortable working with diverse teams, and ready to contribute immediately to the smooth running of your Southeast Asia entities. I welcome the opportunity to discuss how my technical foundation and enthusiasm can add value to Beyondsoft Malaysia. Please feel free to contact me at +60-1157217903 or via email at fathazwan14@gmail.com to arrange an interview.
+I am highly adaptable, comfortable working with diverse stakeholders, and available to start immediately. I welcome the opportunity to discuss how my technical troubleshooting skills and proactive attitude can add value to your Southeast Asia operations. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview.
 
 Thank you for your time and consideration.
 
-Sincerely,
-
+Sincerely,  
 Muhammad Syafiq Norhazwan
 
 ---
