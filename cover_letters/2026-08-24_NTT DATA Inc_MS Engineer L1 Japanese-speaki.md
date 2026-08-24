@@ -8,20 +8,25 @@
 ---
 
 Muhammad Syafiq Norhazwan Bin Nor Ramzi  
-fathazwan14@gmail.com  
-+60-1157217903  
+fathazwan14@gmail.com | +60-1157217903  
+Cyberjaya, Selangor, Malaysia  
 
-Dear Hiring Team,
+Hiring Manager  
+NTT DATA, Inc.  
+Cyberjaya, Selangor  
 
-I am writing to express my strong interest in the MS Engineer (L1) Japanese-speaking role at NTT DATA, Inc. in Cyberjaya. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a solid foundation in software development, I am eager to bring my technical troubleshooting skills and commitment to service excellence to your world-class team. 
+Dear Hiring Manager,
 
-As a proactive problem-solver, I possess the technical versatility required to ensure zero missed SLAs. My hands-on experience building complex applications, such as ClockWise—a full-stack Laravel HRMS that automates payroll and attendance—demonstrates my ability to analyze system logic and resolve backend issues efficiently. Additionally, during my internship at Goolee Sdn Bhd, I managed the end-to-end development of a Trainer Management System using PHP. This experience sharpened my first-line technical support capabilities, system monitoring, and ability to diagnose and resolve incidents under pressure. 
+I am writing to express my strong interest in the MS Engineer (L1) Japanese-speaking position at NTT DATA, Inc. Having graduated with a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51), I am eager to combine my technical troubleshooting skills and passion for client success within your world-class, inclusive environment in Cyberjaya.
 
-I am highly drawn to NTT DATA’s culture of diversity and technical innovation. Combined with my technical toolkit in PHP, Laravel, and MySQL, my structured analytical approach enables me to quickly triage system alerts, communicate solutions clearly, and maintain high system availability for your clients.
+My academic and project background has equipped me with a robust technical foundation to ensure zero missed SLAs. Through developing "ClockWise," a solo full-stack HRMS application deployed on Render, I gained hands-on experience in system monitoring, API integration, and proactively resolving database and application bugs. Additionally, my internship at Goolee Sdn Bhd, where I developed a Trainer Development Management System using PHP, honed my ability to analyze system requirements, diagnose technical incidents, and deliver reliable first-line support. These experiences have trained me to monitor IT infrastructure systematically and resolve low-complexity incidents swiftly.
 
-I am available to start immediately and would welcome the opportunity to discuss how my technical skills can support your L1 support operations. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. Thank you for your time and consideration.
+I am highly motivated to bring my technical versatility, problem-solving mindset, and dedication to NTT DATA's high standards of service excellence. With my immediate availability, I am ready to contribute to your team’s success right away. 
+
+I welcome the opportunity to discuss how my technical skills and dedication can support your global clients. Please feel free to contact me at +60-1157217903 or fathazwan14@gmail.com to arrange an interview. Thank you for your time and consideration.
 
 Sincerely,  
+
 Muhammad Syafiq Norhazwan
 
 ---

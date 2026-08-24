@@ -7,18 +7,25 @@
 
 ---
 
-Dear Hiring Team,
+Muhammad Syafiq Norhazwan Bin Nor Ramzi  
+fathazwan14@gmail.com  
++60-1157217903  
 
-I am writing to express my strong interest in the Data Analyst (Based in Vietnam) position at Publicis Groupe Malaysia (Digitas). I am highly drawn to Digitas’ philosophy of putting data to work to tell compelling stories and drive strategic growth. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a strong foundation in modern development tools, I am eager to translate complex datasets into actionable insights for your clients.
+Hiring Manager  
+Publicis Groupe Malaysia  
+Kuala Lumpur, Malaysia  
 
-My academic and project background has equipped me with the analytical mindset required to excel in this role. During my studies, I specialized in data-driven methodologies, mastering how to clean, structure, and analyze information to uncover meaningful trends. Additionally, my hands-on development experience—such as building "ClockWise," a solo full-stack HRMS that automated payroll and attendance tracking—demonstrates my ability to design logical data workflows and manage backend databases using MySQL and Git. I understand how data is structured from the ground up, allowing me to bridge the gap between technical data management and strategic storytelling.
+Dear Hiring Manager,
 
-I am excited about the opportunity to relocate to Vietnam and contribute to Digitas' dynamic, highly-caffeinated playground. I am ready to start immediately and bring my analytical skills, technical adaptability, and passion for problem-solving to your team. 
+I am writing to express my strong interest in the Data Analyst (Based in Vietnam) position at Publicis Groupe Malaysia. Digitas’ reputation as a high-energy playground that transforms complex data into powerful, actionable stories deeply resonates with my analytical mindset. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a strong foundation in modern development tools, I am eager to help your team lay the groundwork for impactful client reporting.
 
-I would welcome the opportunity to discuss how my background in Big Data can support your day-to-day reporting and strategic needs. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
+My academic and project background has equipped me with the exact technical rigor required to translate raw data into strategic insights. While developing "ClockWise," a solo full-stack HRMS, I designed database schemas using MySQL and managed version control via Git to automate payroll and attendance tracking. This project honed my ability to clean, structure, and interpret system data to improve operational efficiency. Additionally, my experience building "JomOrder," an AI-augmented POS system, trained me to analyze user behavior patterns and transactional data to optimize performance. 
 
-Sincerely,
+I am highly adaptable, technically versatile, and excited about the opportunity to relocate to Vietnam to support your regional data operations. I am ready to start immediately and bring my data-modeling, SQL, and Git skills to your collaborative team.
 
+I would love the opportunity to discuss how my technical background can support Digitas’ data-driven stories. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
+
+Sincerely,  
 Muhammad Syafiq Norhazwan
 
 ---

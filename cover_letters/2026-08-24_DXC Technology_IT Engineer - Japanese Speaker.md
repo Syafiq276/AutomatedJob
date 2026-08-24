@@ -7,18 +7,21 @@
 
 ---
 
-Dear Hiring Team,
+Muhammad Syafiq Norhazwan Bin Nor Ramzi  
+fathazwan14@gmail.com  
++60-1157217903  
 
-I am writing to express my strong interest in the IT Engineer (Japanese Speaker) position at DXC Technology. As a recent Bachelor of IT (Hons.) in Big Data graduate from UiTM Arau with a CGPA of 3.51, I am eager to leverage my technical foundation and Japanese language skills to support and optimize IT infrastructure for your Japanese clients. 
+Dear Hiring Team at DXC Technology,
 
-During my academic and practical journey, I have developed a robust technical toolkit that aligns with DXC’s commitment to high-standard service delivery. I built "ClockWise," a solo full-stack HRMS deployed on Render, which automated complex payroll and attendance tracking. This project sharpened my skills in application lifecycle management, system planning, and troubleshooting. Additionally, my hands-on experience with modern frameworks like React, PHP, and Laravel, alongside my internship at Goolee Sdn Bhd, has equipped me with the adaptability needed to manage diverse application infrastructures and transition efforts smoothly. 
+I am writing to express my strong interest in the IT Engineer (Japanese Speaker) role at DXC Technology. As a recent IT graduate from UiTM Arau with a CGPA of 3.51, I am eager to combine my technical foundation with my language skills to support DXC’s Japanese clients in maintaining high-performing IT and application infrastructures.
 
-With a strong analytical mindset, a solid understanding of software and database systems, and the ability to communicate technical solutions in Japanese, I am confident in my ability to deliver high-quality support that meets strict compliance and SLA standards. I am available to start immediately and am excited about the prospect of contributing to DXC Technology's global operations.
+My academic and project background has equipped me with a robust understanding of application lifecycles and modern development frameworks like React and PHP. For my project "ClockWise," a solo-developed Human Resource Management System, I successfully managed the entire lifecycle from development to deployment on Render. Additionally, during my internship at Goolee Sdn Bhd, I engineered a Trainer Development Management System. These experiences have trained me to monitor system performance, troubleshoot technical issues, and deliver solutions that align with strict quality standards—skills that are directly transferable to managing DXC’s client infrastructure and transition efforts.
 
-Thank you for your time and consideration. I welcome the opportunity to discuss how my technical skills and linguistic capabilities can add value to your team. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903.
+I am highly adaptable, detail-oriented, and ready to immediately contribute to your team in Petaling Jaya. I welcome the opportunity to discuss how my technical skills and dedication can support DXC Technology’s global service delivery. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview.
 
-Sincerely,
+Thank you for your time and consideration.
 
+Sincerely,  
 Muhammad Syafiq Norhazwan
 
 ---
