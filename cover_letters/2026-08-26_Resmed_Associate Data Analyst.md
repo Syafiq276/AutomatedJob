@@ -7,15 +7,21 @@
 
 ---
 
-Dear Hiring Team at Resmed,
+Muhammad Syafiq Norhazwan Bin Nor Ramzi  
+fathazwan14@gmail.com  
++60-1157217903  
 
-I am writing to express my strong interest in the Associate Data Analyst position within your Post Market Quality Team in Johor Baharu. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a robust foundation in software development, I am eager to leverage my analytical skills to transform complex quality data into actionable insights that improve Resmed’s product reliability and patient outcomes.
+Dear Hiring Team,
 
-The Post Market Quality Team’s focus on engineering investigations and continuous improvement deeply resonates with my technical background. During my academic career, I developed "ClockWise," a solo full-stack HRMS application. By designing efficient MySQL database schemas and leveraging Laravel, I automated payroll and attendance tracking, which sharpened my ability to identify system inefficiencies and translate raw operational data into structured, actionable reporting. Additionally, my hands-on experience building the "JomOrder" POS system utilizing AI-augmented development demonstrates my agility in using modern technology to optimize processes and analyze user workflows. 
+I am writing to express my strong interest in the Associate Data Analyst position within the Post Market Quality Team at Resmed. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a robust background in developing data-driven web applications, I am eager to help transform complex quality data into actionable insights that improve Resmed’s world-class medical products.
 
-With proficiency in PHP, MySQL, JavaScript, and RESTful APIs, I am equipped to assist in developing software service tools, analyzing product failure trends, and collaborating with your engineering teams to track defects to resolution. I bring a data-driven mindset, a strong attention to detail, and the adaptability needed to thrive in Resmed's fast-paced, quality-centric environment.
+The Post Market Quality team’s focus on engineering investigations, reporting, and systems development aligns perfectly with my analytical and technical skill set. During my studies and practical projects, I have honed my ability to manage databases and streamline reporting processes. For instance, I solo-developed "ClockWise," a full-stack Human Resource Management System using Laravel, MySQL, and RESTful APIs. This project required designing complex database schemas and automating payroll and attendance reporting, demonstrating my ability to build the reliable, structured data systems your team relies on for complaint management and defect tracking.
 
-I am available to start immediately and would welcome the opportunity to discuss how my technical skills can support your quality analytics initiatives. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
+Additionally, my hands-on experience with PHP, JavaScript, and Express, combined with my rigorous academic training in Big Data, equips me to quickly master your quality analytics workflows. I am highly adept at identifying trends, isolating anomalies, and translating raw technical data into clear, visual insights that support engineering and R&D decision-making. 
+
+I am available to start immediately and would welcome the opportunity to discuss how my technical skills and analytical mindset can contribute to Resmed’s continuous improvement initiatives. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview.
+
+Thank you for your time and consideration.
 
 Sincerely,
 
