@@ -7,17 +7,15 @@
 
 ---
 
-Dear Hiring Manager,
+Dear Hiring Team,
 
-I am writing to express my strong interest in the Information Technology Executive position at WCT Land. As an IT graduate from UiTM Arau (CGPA 3.51) with hands-on experience in full-stack development and system maintenance, I am eager to contribute to WCT Land’s robust IT operations and support your team in driving business continuity.
+I am writing to express my strong interest in the Information Technology Executive position at WCT Land. As a Bachelor of IT (Hons.) in Big Data graduate from UiTM Arau (CGPA 3.51) with a robust hands-on background in full-stack development and system maintenance, I am eager to contribute to WCT Land’s digital infrastructure and technical operations.
 
-My background directly aligns with your need for technical troubleshooting, system maintenance, and vendor coordination. During my internship at Goolee Sdn Bhd, I managed the end-to-end development and deployment of a Trainer Development Management System. This role sharpened my skills in configuring software, monitoring system performance, and troubleshooting application issues. Additionally, I developed "ClockWise," a full-stack HRMS deployed on Render. Building and deploying this application deepened my practical knowledge of server health monitoring, database management (MySQL), and ensuring data security—skills that will enable me to efficiently manage your daily backup operations and network infrastructure.
+Your requirement for an IT Executive who can support network infrastructure, troubleshoot hardware/software, and manage application systems aligns perfectly with my technical expertise. During my internship at Goolee Sdn Bhd, I actively maintained web systems and resolved application issues, gaining valuable experience coordinating technical workflows and ensuring system reliability. Furthermore, my strong development background—demonstrated by building complex, self-deployed applications like ClockWise (an HRMS automating payroll and attendance)—proves my capability to troubleshoot software systems, monitor server health, and communicate effectively with external vendors or developers to resolve technical bottlenecks.
 
-With a solid foundation in both hardware/software troubleshooting and modern web technologies (PHP, Laravel, Git), I am confident in my ability to provide exceptional technical support to your end-users and maintain your LAN/WAN and server environments. I am a proactive problem-solver who thrives in fast-paced environments, and I am available to start immediately.
+Equipped with a solid understanding of database management (MySQL), system deployment, and network troubleshooting, I am fully prepared to ensure business continuity and deliver prompt technical support to your end-users. I am available to start immediately and would love the opportunity to discuss how my technical skills can support WCT Land’s IT department. 
 
-I would welcome the opportunity to discuss how my technical skills and enthusiasm can support WCT Land’s IT department. Please feel free to contact me at +60-1157217903 or via email at fathazwan14@gmail.com to arrange an interview. 
-
-Thank you for your time and consideration.
+Please feel free to contact me at +60-1157217903 or fathazwan14@gmail.com to arrange an interview. Thank you for your time and consideration.
 
 Sincerely,
 
