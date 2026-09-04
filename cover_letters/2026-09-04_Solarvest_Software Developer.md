@@ -17,16 +17,17 @@ Petaling Jaya, Selangor, Malaysia
 
 Dear Hiring Manager,
 
-I am writing to express my strong interest in the Software Developer position at Solarvest. As an IT graduate from UiTM with a CGPA of 3.51 and hands-on full-stack experience, I am inspired by Solarvest’s leadership in clean energy. I am eager to apply my technical skills to build the robust internal tools, dashboards, and client-facing applications that drive your solar EPCC operations and workflow automation.
+I am writing to express my strong interest in the Software Developer position at Solarvest. As an IT graduate from UiTM Arau with a CGPA of 3.51 and a strong foundation in full-stack development, I am excited about the opportunity to build and optimize the digital tools that support Solarvest's leading solar EPCC operations and green energy initiatives.
 
-My background aligns directly with your development needs. For my project *ClockWise*, I independently designed and deployed a full-stack HRMS on Render using Laravel and MySQL to automate payroll and attendance tracking. Additionally, during my internship at Goolee Sdn Bhd, I developed a Trainer Development Management System using PHP, demonstrating my ability to build operational tools that streamline business processes. Through these projects, I have established a strong foundation in JavaScript, SQL, Git version control, and containerization with Docker, ensuring I can contribute immediately to your team's codebase and integration workflows.
+My technical toolkit directly aligns with your requirements for creating robust internal and external applications. Through hands-on project experience, I have developed a deep proficiency in JavaScript, SQL, Git, and Docker. Notably, I built *ClockWise*, a solo full-stack HRMS application deployed on Render that automates complex payroll and attendance workflows. Additionally, I developed *JomOrder*, a Laravel-based F&B ordering system utilizing AI-augmented development. These projects demonstrate my ability to design efficient backend services, construct seamless RESTful APIs, and deliver intuitive user interfaces that streamline business operations.
 
-I am highly motivated to contribute to Solarvest’s mission of driving a sustainable future through smart technology. With my immediate availability, I am ready to hit the ground running and support your engineering team. 
+During my internship at Goolee Sdn Bhd, I successfully developed a Trainer Development Management System using PHP. This experience sharpened my ability to write clean, secure code and collaborate effectively in fast-paced environments. I am eager to bring this proactive problem-solving mindset to Solarvest, contributing to your workflow automation dashboards and third-party integrations.
 
-I welcome the opportunity to discuss how my technical skills and enthusiasm can add value to Solarvest. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview. Thank you for your time and consideration.
+I am available to start immediately and would welcome the opportunity to discuss how my technical skills and enthusiasm for sustainable energy solutions can add value to your team. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903 to schedule an interview.
+
+Thank you for your time and consideration.
 
 Sincerely,  
-
 Muhammad Syafiq Norhazwan
 
 ---
