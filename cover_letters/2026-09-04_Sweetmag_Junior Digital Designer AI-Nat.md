@@ -1,27 +1,27 @@
-# Cover Letter — Web Designer & Developer at Thousands Of Years Media Sdn Bhd
+# Cover Letter — Junior Digital Designer (AI-Native): Web & E-commerce at Sweetmag
 
-> **Match Score:** 100.0%  
+> **Match Score:** 91%  
 > **Source:** LinkedIn  
 > **Applied:** 04 September 2026  
-> **Job URL:** https://my.linkedin.com/jobs/view/web-designer-developer-at-thousands-of-years-media-sdn-bhd-4461943949
+> **Job URL:** https://my.linkedin.com/jobs/view/junior-digital-designer-ai-native-web-e-commerce-at-sweetmag-4461685057
 
 ---
 
 04 September 2026
 
 Hiring Manager
-Thousands Of Years Media Sdn Bhd
-Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia
+Sweetmag
+Petaling Jaya, Selangor, Malaysia
 
 Dear Hiring Manager,
 
-I am writing to express my keen interest in the Web Designer & Developer position at Thousands Of Years Media Sdn Bhd. As a fresh IT graduate from UiTM Arau with a CGPA of 3.51 specialising in Big Data, I bring hands-on production experience in JavaScript, Git, GitHub, Backend, HTML, CSS — skills that align directly with what your team needs.
+I am writing to express my keen interest in the Junior Digital Designer (AI-Native): Web & E-commerce position at Sweetmag. As a fresh IT graduate from UiTM Arau with a CGPA of 3.51 specialising in Big Data, I bring hands-on production experience in Git, HTML, CSS, WordPress — skills that align directly with what your team needs.
 
 During my time as a solo developer on ClockWise, an end-to-end Human Resource Management System built on the Laravel ecosystem, I engineered a complete payroll automation platform and successfully deployed it to a live Render cloud environment. This project sharpened my ability to architect clean RESTful APIs, design normalised relational databases in MySQL, and manage a full software development lifecycle independently — from requirements through to deployment.
 
 Additionally, my internship at Goolee Sdn Bhd gave me real-world exposure to translating unstructured organisational data into structured digital systems, building an internal Trainer Development Management System that is actively used by the company today.
 
-I am immediately available and genuinely excited about the opportunity to contribute to Thousands Of Years Media Sdn Bhd. I would welcome the chance to discuss how my technical background and work ethic can support your team's goals.
+I am immediately available and genuinely excited about the opportunity to contribute to Sweetmag. I would welcome the chance to discuss how my technical background and work ethic can support your team's goals.
 
 Thank you for your time and consideration.
 

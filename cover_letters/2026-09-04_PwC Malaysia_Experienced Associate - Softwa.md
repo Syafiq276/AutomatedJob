@@ -13,15 +13,16 @@ fathazwan14@gmail.com
 
 Dear Hiring Team,
 
-I am writing to express my strong interest in the Experienced Associate - Software Engineer position within the Digital Tax team at PwC Malaysia. As an IT graduate from UiTM Arau with a CGPA of 3.51, I am excited by PwC’s commitment to solving complex business challenges through technology. I am eager to apply my software development skills to help transform and automate crucial tax processes.
+I am writing to express my strong interest in the Experienced Associate - Software Engineer position within the Digital Tax team at PwC Malaysia. With a Bachelor of IT (Hons.) in Big Data from UiTM Arau (CGPA 3.51) and a passion for building robust digital solutions, I am excited about the opportunity to help transform and automate tax business processes through technology.
 
-My technical background aligns closely with your team's needs. I have hands-on experience building and deploying scalable web applications using PHP, JavaScript, SQL, and Git. For my project, ClockWise, I independently developed a full-stack HRMS using Laravel and MySQL, deploying it via Render to automate payroll and attendance tracking. Additionally, during my internship at Goolee Sdn Bhd, I developed a Trainer Development Management System using WordPress and PHP, demonstrating my ability to deliver practical, process-automating solutions in a professional environment.
+My technical background aligns directly with your team's need for scalable, automated solutions. As a solo developer, I built ClockWise, an HRMS application deployed on Render using Laravel and MySQL that fully automates complex payroll and attendance tracking. Additionally, my hands-on experience extends to modern web technologies, including JavaScript, PHP, Python, and Git version control. During my internship at Goolee Sdn Bhd, I successfully developed and deployed a Trainer Development Management System, proving my ability to translate complex business workflows into functional, user-friendly software.
 
-I am highly adaptable, familiar with modern development workflows, and ready to collaborate with your diverse community of solvers to build trust and deliver sustained outcomes. I am available to start immediately and would welcome the opportunity to discuss how my technical skills can contribute to PwC's digital initiatives. Please feel free to contact me at fathazwan14@gmail.com or +60-1157217903. 
+I am eager to bring my problem-solving mindset and full-stack development skills to PwC's global community of solvers. I am available to start immediately and would welcome the opportunity to discuss how my technical skills can support your digital tax transformation initiatives. Please feel free to reach out to me at fathazwan14@gmail.com or +60-1157217903. 
 
 Thank you for your time and consideration.
 
-Sincerely,  
+Sincerely,
+
 Muhammad Syafiq Norhazwan
 
 ---
